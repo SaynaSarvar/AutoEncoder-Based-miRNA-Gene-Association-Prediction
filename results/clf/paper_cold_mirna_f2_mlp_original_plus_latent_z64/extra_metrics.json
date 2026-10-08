@@ -1,0 +1,6 @@
+{
+ "strong_auc": 0.8459764742151481,
+ "n_strong_pos": 1521,
+ "per_mirna_auc": 0.8867411715934033,
+ "n_mirnas_per_entity": 458
+}

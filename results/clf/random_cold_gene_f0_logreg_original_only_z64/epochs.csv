@@ -1,0 +1,2 @@
+epoch,train_loss,val_auc,seconds
+1,,0.6101948584209489,16.877710103988647

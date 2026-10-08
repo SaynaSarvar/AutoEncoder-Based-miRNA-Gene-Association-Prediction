@@ -1,0 +1,119 @@
+======================================================================
+miRNAs (mature.fa)
+======================================================================
+Human mature miRNAs (hsa-*): 2789
+Duplicate mirna_id entries: 0
+Duplicate sequences: 20 sequences shared by 46 miRNAs
+  AAAAACCACAAUUACUUUUGCA: hsa-miR-548aa-3p, hsa-miR-548t-3p
+  AAAAGUAAUUGCAGUUUUUG: hsa-miR-548x-5p, hsa-miR-548aj-5p
+  AAAAGUAAUUGCGGUUUUUGCC: hsa-miR-548c-5p, hsa-miR-548o-5p, hsa-miR-548am-5p
+  AAAAGUAAUUGUGGUUUUUG: hsa-miR-548ad-5p, hsa-miR-548ae-5p
+  AAAGGUAAUUGCAGUUUUUCCC: hsa-miR-548ai-5p, hsa-miR-570-5p
+  AAAGUGCUUCCUUUCAGAGGGU: hsa-miR-516b-3p, hsa-miR-516a-3p
+  ACAGUAGUCUGCACAUUGGUUA: hsa-miR-199a-3p, hsa-miR-199b-3p
+  AUCGUGCAUCCCUUUAGAGUGU: hsa-miR-517a-3p, hsa-miR-517b-3p
+  CAAAAACUGCAAUUACUUUUGC: hsa-miR-548aq-3p, hsa-miR-548h-3-3p
+  CCUCUACAGGGAAGCGCUUUCU: hsa-miR-520b-5p, hsa-miR-519a-2-5p
+  CUCUAGAGGGAAGCACUUUCUG: hsa-miR-526a-5p, hsa-miR-520c-5p, hsa-miR-518d-5p
+  CUCUAGAGGGAAGCGCUUUCUG: hsa-miR-519c-5p, hsa-miR-523-5p, hsa-miR-518e-5p, hsa-miR-522-5p, hsa-miR-519b-5p
+  CUGCAAAGGGAAGCCCUUUC: hsa-miR-527-5p, hsa-miR-518a-5p
+  CUGGGAGGUGUGAUAUUGUGGU: hsa-miR-3689b-3p, hsa-miR-3689c-3p
+  GUGGAUAUUCCUUCUAUGUUUA: hsa-miR-376c-5p, hsa-miR-376b-5p
+  UAAUGCCCCUAAAAAUCCUUAU: hsa-miR-365a-3p, hsa-miR-365b-3p
+  UGCAAAAGAAACUGUGGUUUUU: hsa-miR-548aa-1-5p, hsa-miR-548aa-2-5p
+  UGCAGUGUGACUCAGCAGGCCAA: hsa-miR-4435-2-3p, hsa-miR-4435-1-3p
+  UGGGGCGGAGCUUCCGGAGGCC: hsa-miR-3180-3p, hsa-miR-3180-4-5p
+  UGUGAUAUCAUGGUUCCUGGGA: hsa-miR-3689a-5p, hsa-miR-3689b-5p, hsa-miR-3689e-5p
+
+======================================================================
+Interactions (miRTarBase)
+======================================================================
+Read hsa_MTI.csv with encoding=utf-8-sig
+Columns / dtypes:
+  'miRTarBase ID': object
+  'miRNA': object
+  'Species (miRNA)': object
+  'Target Gene': object
+  'Target Gene (Entrez ID)': object
+  'Species (Target Gene)': object
+  'Experiments': object
+  'Support Type': object
+  'References (PMID)': object
+Raw rows: 4004967
+Example rows:
+    miRTarBase ID           miRNA Species (miRNA) Target Gene Target Gene (Entrez ID) Species (Target Gene)                              Experiments        Support Type References (PMID)
+  0    MIRT003105  hsa-miR-122-5p             hsa      SLC7A1                  6541.0                   hsa  Luciferase reporter assay//Western blot      Functional MTI        17179747.0
+  1    MIRT003105  hsa-miR-122-5p             hsa      SLC7A1                  6541.0                   hsa  Luciferase reporter assay//Western blot  Non-Functional MTI        17179747.0
+  2    MIRT003105  hsa-miR-122-5p             hsa      SLC7A1                  6541.0                   hsa  Luciferase reporter assay//Western blot  Non-Functional MTI        17179747.0
+  3    MIRT003105  hsa-miR-122-5p             hsa      SLC7A1                  6541.0                   hsa  Luciferase reporter assay//Western blot      Functional MTI        17179747.0
+  4    MIRT003105  hsa-miR-122-5p             hsa      SLC7A1                  6541.0                   hsa  Luciferase reporter assay//Western blot      Functional MTI        17179747.0
+Column mapping: {'species_mirna': 'Species (miRNA)', 'species_target': 'Species (Target Gene)', 'entrez_id': 'Target Gene (Entrez ID)', 'mirtarbase_id': 'miRTarBase ID', 'target_gene': 'Target Gene', 'mirna': 'miRNA', 'experiments': 'Experiments', 'support_type': 'Support Type', 'references': 'References (PMID)'}
+species_mirna values: {'hsa': 4004479, 'ebv': 395, 'kshv': 37, 'mmu': 18, 'ptr': 10, 'vun': 10, 'hcmv': 5, 'rno': 5, 'gga': 3, 'ssc': 2, 'sja': 2, 'chi': 1}
+species_target values: {'hsa': 4004967}
+Human rows (both species human): 4004479
+Unique (miRNA, gene) pairs: 1730805
+Unique miRNAs: 3048
+Unique genes: 16979
+Pairs with strong_evidence (Functional MTI): 8856
+
+Support type counts (human rows):
+  Functional MTI (Weak): 3981769
+  Functional MTI: 18044
+  Non-Functional MTI: 4236
+  Non-Functional MTI (Weak): 430
+Support type counts (unique pairs, a pair may have several):
+  Functional MTI (Weak): 1723687
+  Functional MTI: 8856
+  Non-Functional MTI: 2393
+  Non-Functional MTI (Weak): 349
+
+======================================================================
+miRNA name matching (exact, no fixes)
+======================================================================
+Interaction miRNA names matching mature.fa mirna_id: 1731 / 3048
+Pairs surviving the match: 662493 / 1730805
+Strong-evidence pairs surviving: 7667 / 8856
+Examples of unmatched miRNA names (20 of 1317):
+  Hsa-miR-21-5p
+  MiR-210
+  MicroRNA‑3907
+  Mir-4723
+  Sja-miR-1
+  ebv-miR-BART12
+  gga-miR-489-3p
+  hsa-let-7a
+  hsa-let-7b
+  hsa-let-7c
+  hsa-let-7d
+  hsa-let-7e
+  hsa-let-7f
+  hsa-let-7g
+  hsa-let-7i
+  hsa-miR-1
+  hsa-miR-1-3p
+  hsa-miR-100
+  hsa-miR-101
+  hsa-miR-103a
+
+Top 10 miRNAs by number of interactions:
+  hsa-miR-548c-3p: 3238
+  hsa-miR-4728-5p: 3097
+  hsa-miR-3613-3p: 2926
+  hsa-miR-590-3p: 2900
+  hsa-miR-4775: 2720
+  hsa-miR-1827: 2673
+  hsa-miR-4459: 2592
+  hsa-miR-3163: 2568
+  hsa-miR-940: 2556
+  hsa-miR-3689c: 2491
+Top 10 genes by number of interactions:
+  CBX5: 1020
+  HIPK2: 997
+  IGF1R: 986
+  NUFIP2: 959
+  TNRC6B: 935
+  MAVS: 911
+  FBXL20: 875
+  PURB: 872
+  ZNF652: 871
+  TAOK1: 858

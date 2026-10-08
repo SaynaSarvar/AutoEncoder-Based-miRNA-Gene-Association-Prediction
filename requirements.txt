@@ -1,0 +1,17 @@
+# Pinned to the versions used for all reported results.
+# Python 3.11.9, macOS on Apple Silicon (M4), system Python (no virtual environment).
+torch==2.12.0
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.16.3
+scikit-learn==1.7.2
+joblib==1.5.2
+PyYAML==6.0.3
+tqdm==4.67.1
+biopython==1.88
+pyfaidx==0.9.0.4
+gensim==4.4.0
+requests==2.32.5
+matplotlib==3.10.7
+pyarrow==22.0.0      # parquet I/O for pandas
+jupyter==1.1.1       # optional, for notebooks/

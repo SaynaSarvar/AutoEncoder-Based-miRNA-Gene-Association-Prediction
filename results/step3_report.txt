@@ -1,0 +1,88 @@
+======================================================================
+Step 3 embedding checks
+======================================================================
+sets present: kmer, d2v_trained, d2v_inferred
+index sizes: 2334 miRNAs, 16796 genes
+Doc2Vec params: {'vector_size': 64, 'window': 5, 'min_count': 1, 'dm': 1, 'sample': 0, 'epochs': 20, 'workers': 4, 'seed': 42}
+  sample=0: with only 64 distinct 3-mers, the default downsampling (sample=1e-3) treats every token as frequent and drops ~69% of them
+  training: 20 epochs, 4.71 min/epoch (min 3.64, max 6.54); total 1.57 h + vocab scan 1.2 min; 4,515,626 words/s
+  note: multi-worker gensim Doc2Vec is not bit-reproducible even with seed=42
+  note: 4908 gensim 'our_dot_float' messages in the log: gensim 4.4's compiled code treats a dot product of exactly -1.0 as an error code and uses 0 for that single update (negligible vs ~1e10 updates)
+
+--- kmer  (miRNA (2334, 64), gene (16796, 64))
+  shapes match index: True; all finite: True; zero rows: miRNA 0, gene 0
+  miRNA family test (cosine; 'centred' = after subtracting the mean vector):
+    let-7 family     n= 18  within=0.384  centred=0.222
+    miR-200 family   n=  8  within=0.370  centred=0.140
+    random pairs     n=1000 mean=0.258  centred=0.004
+  shared-sequence groups (15 groups in index): max within-group Euclidean distance=0 (median random-pair distance=0.33)
+  gene paralog test (cosine within cluster vs random pairs):
+    HOXA1-13           n=  11  within=0.965  centred=0.534
+    HOXB*              n=  10  within=0.970  centred=0.802
+    KRT*               n=  49  within=0.949  centred=0.391
+    OR*                n=  50  within=0.919  centred=0.385
+    ZNF* (100)         n= 100  within=0.954  centred=0.191
+    random pairs       n=1000  mean=0.918  centred=0.005
+  leakage (Spearman rho; ridge predicts the target from the embedding):
+    log10 genomic length       rho(norm)=-0.026  rho(PC1..5)=+0.53 +0.00 -0.20 -0.02 +0.02  ridge 5-fold R2=0.522±0.024
+    log10(1+degree)            rho(norm)=-0.096  rho(PC1..5)=+0.14 +0.20 -0.18 +0.15 -0.12  ridge 5-fold R2=0.156±0.018
+
+--- d2v_trained  (miRNA (2334, 64), gene (16796, 64))
+  shapes match index: True; all finite: True; zero rows: miRNA 0, gene 0
+  miRNA family test (cosine; 'centred' = after subtracting the mean vector):
+    let-7 family     n= 18  within=0.155  centred=0.133
+    miR-200 family   n=  8  within=0.075  centred=0.077
+    random pairs     n=1000 mean=0.018  centred=0.001
+  shared-sequence groups (15 groups in index): max within-group Euclidean distance=0.307 (median random-pair distance=0.371)
+  gene paralog test (cosine within cluster vs random pairs):
+    HOXA1-13           n=  11  within=0.215  centred=0.214
+    HOXB*              n=  10  within=0.142  centred=0.138
+    KRT*               n=  49  within=0.011  centred=0.011
+    OR*                n=  50  within=0.012  centred=0.019
+    ZNF* (100)         n= 100  within=0.004  centred=0.003
+    random pairs       n=1000  mean=0.000  centred=-0.000
+  leakage (Spearman rho; ridge predicts the target from the embedding):
+    log10 genomic length       rho(norm)=-0.500  rho(PC1..5)=+0.02 +0.10 +0.01 -0.07 -0.04  ridge 5-fold R2=0.130±0.011
+    log10(1+degree)            rho(norm)=-0.134  rho(PC1..5)=+0.01 +0.04 -0.01 -0.01 +0.01  ridge 5-fold R2=0.018±0.006
+
+--- d2v_inferred  (miRNA (2334, 64), gene (16796, 64))
+  shapes match index: True; all finite: True; zero rows: miRNA 0, gene 0
+  miRNA family test (cosine; 'centred' = after subtracting the mean vector):
+    let-7 family     n= 18  within=0.220  centred=0.236
+    miR-200 family   n=  8  within=0.163  centred=0.167
+    random pairs     n=1000 mean=0.060  centred=0.002
+  shared-sequence groups (15 groups in index): max within-group Euclidean distance=0 (median random-pair distance=4.81)
+  gene checks: same gene matrix as above
+
+reference: Spearman rho(log10 length, log10(1+degree)) = +0.270
+
+======================================================================
+Comparison
+======================================================================
+metric                                      kmer    d2v_trained   d2v_inferred
+------------------------------------------------------------------------------
+miRNA: let-7 raw cos                       0.384          0.155          0.220
+miRNA: let-7 centred cos                   0.222          0.133          0.236
+miRNA: miR-200 raw cos                     0.370          0.075          0.163
+miRNA: miR-200 centred cos                 0.140          0.077          0.167
+miRNA: random raw cos                      0.258          0.018          0.060
+miRNA: random centred cos                  0.004          0.001          0.002
+miRNA: family margin (centred)             0.177          0.105          0.199
+shared-seq: max dist                           0          0.307              0
+shared-seq: max / median random            0.000          0.829          0.000
+gene: HOXA1-13 centred cos                 0.534          0.214          0.214
+gene: HOXB* centred cos                    0.802          0.138          0.138
+gene: KRT* centred cos                     0.391          0.011          0.011
+gene: OR* centred cos                      0.385          0.019          0.019
+gene: ZNF* (100) centred cos               0.191          0.003          0.003
+gene: random centred cos                   0.005         -0.000         -0.000
+leak: ridge R2 log length                  0.522          0.130          0.130
+leak: ridge R2 log degree                  0.156          0.018          0.018
+leak: Spearman PC1 vs log len             +0.527         +0.024         +0.024
+family margin = mean over let-7/miR-200 of (centred within-family cos - centred random cos)
+d2v_trained and d2v_inferred share the same gene matrix, so gene rows are identical.
+
+Recommendation (miRNA vectors downstream):
+  trained   family margin=0.105  shared-seq max/median-random=0.829
+  inferred  family margin=0.199  shared-seq max/median-random=0.000
+  -> use 'inferred': better on both family structure and shared-sequence consistency.

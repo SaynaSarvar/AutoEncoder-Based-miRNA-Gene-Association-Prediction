@@ -1,0 +1,8 @@
+======================================================================
+Step 3 pilot: Doc2Vec on a token subsample
+======================================================================
+params: {'vector_size': 64, 'window': 5, 'min_count': 1, 'dm': 1, 'epochs': 2, 'workers': 4, 'seed': 42}
+pilot corpus: 10,124 docs (7,002 miRNA + 3,122 gene chunks), 25,547,738 tokens = 2.00% of 1,277,817,755; 97.5 MB
+vocab built in 1.4s: 64 words, 10124 doc tags (expected 10124), corpus words 25,547,738 (expected 25,547,738)
+training: 2 epochs in 2.7s -> 18,634,709 words/s
+projected full corpus: 1.1 min/epoch; 20 epochs = 0.4 h (+ vocab scan ~1.2 min)

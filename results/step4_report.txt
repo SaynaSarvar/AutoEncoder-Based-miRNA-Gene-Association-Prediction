@@ -1,0 +1,115 @@
+======================================================================
+Step 4: negative sampling
+======================================================================
+embeddings: miRNA=mirna_d2v_inferred.npy (2334, 64), gene=gene_d2v.npy (16796, 64)
+positives: 1,159,808; negatives per strategy: 1,159,808
+grid: 2,334 x 16,796 = 39,201,864; known pairs excluded: 1,804,060
+Mahalanobis: S = LedoitWolf covariance of the 19,130 pooled miRNA+gene vectors (shrinkage=0.0210); S^-1 precomputed. The paper does not define S.
+thresholds (mean over positive pairs): d_euc=5.6288, d_cos=1.0012, d_mah=9.3368
+candidate pool (grid minus known): 37,397,804  (scan 1s)
+candidates above threshold:
+  euc                       17,633,337  (47.15% of candidates)
+  cos                       18,735,192  (50.10% of candidates)
+  mah                       17,905,567  (47.88% of candidates)
+  euc&cos                   10,116,861  (27.05% of candidates)
+  euc&mah                   16,478,787  (44.06% of candidates)
+  cos&mah                    9,976,842  (26.68% of candidates)
+  all three (paper pool)     9,347,295  (24.99% of candidates)
+  paper reference: 4,932,554 of ~38M
+
+  degree_aware: 0 miRNAs could not fill their quota
+
+saved data/processed/pairs_paper.parquet: 2,319,616 rows
+saved data/processed/pairs_random.parquet: 2,319,616 rows
+saved data/processed/pairs_degree_aware.parquet: 2,319,616 rows
+
+======================================================================
+Diagnostics
+======================================================================
+--- paper: 1,159,808 positives + 1,159,808 negatives
+  1. distances (pos vs neg):
+     d_euc: mean 5.629 vs 7.588; median 5.235 vs 7.115; KS=0.613
+     d_cos: mean 1.001 vs 1.109; median 1.002 vs 1.094; KS=0.499
+     d_mah: mean 9.337 vs 12.199; median 8.788 vs 11.515; KS=0.599
+  2. gene bias (pos vs neg):
+     log10 gene length: median 4.668 vs 4.259; KS=0.324
+     gene vector norm: median 3.776 vs 5.686; KS=0.468
+  3. degree structure (Spearman of #pos vs #neg per entity):
+     gene: rho=-0.154
+     mirna: rho=-0.157
+  4. class-pure entities:
+     gene: only-positive=695, only-negative=0; rows involving them=2.51%
+     mirna: only-positive=0, only-negative=0; rows involving them=0.00%
+     rows involving any class-pure entity: 2.51%
+  5. shortcut baselines (logistic regression, stratified 80/20, test ROC-AUC):
+     a) 3 distances         AUC=0.859  (1s)
+     b) log length          AUC=0.711  (1s)
+     c) len + norms         AUC=0.801  (1s)
+     e) embeddings (128)    AUC=0.685  (25s)
+     d) degree (train only) AUC=0.894
+
+--- random: 1,159,808 positives + 1,159,808 negatives
+  1. distances (pos vs neg):
+     d_euc: mean 5.629 vs 5.971; median 5.235 vs 5.518; KS=0.084
+     d_cos: mean 1.001 vs 1.001; median 1.002 vs 1.001; KS=0.001
+     d_mah: mean 9.337 vs 9.832; median 8.788 vs 9.208; KS=0.079
+  2. gene bias (pos vs neg):
+     log10 gene length: median 4.668 vs 4.505; KS=0.130
+     gene vector norm: median 3.776 vs 4.066; KS=0.080
+  3. degree structure (Spearman of #pos vs #neg per entity):
+     gene: rho=-0.346
+     mirna: rho=-0.400
+  4. class-pure entities:
+     gene: only-positive=0, only-negative=0; rows involving them=0.00%
+     mirna: only-positive=0, only-negative=0; rows involving them=0.00%
+     rows involving any class-pure entity: 0.00%
+  5. shortcut baselines (logistic regression, stratified 80/20, test ROC-AUC):
+     a) 3 distances         AUC=0.561  (1s)
+     b) log length          AUC=0.582  (0s)
+     c) len + norms         AUC=0.588  (1s)
+     e) embeddings (128)    AUC=0.613  (21s)
+     d) degree (train only) AUC=0.880
+
+--- degree_aware: 1,159,808 positives + 1,159,808 negatives
+  1. distances (pos vs neg):
+     d_euc: mean 5.629 vs 5.694; median 5.235 vs 5.298; KS=0.020
+     d_cos: mean 1.001 vs 1.001; median 1.002 vs 1.001; KS=0.002
+     d_mah: mean 9.337 vs 9.429; median 8.788 vs 8.875; KS=0.017
+  2. gene bias (pos vs neg):
+     log10 gene length: median 4.668 vs 4.645; KS=0.021
+     gene vector norm: median 3.776 vs 3.836; KS=0.016
+  3. degree structure (Spearman of #pos vs #neg per entity):
+     gene: rho=+0.992
+     mirna: rho=+1.000
+  4. class-pure entities:
+     gene: only-positive=289, only-negative=0; rows involving them=0.02%
+     mirna: only-positive=0, only-negative=0; rows involving them=0.00%
+     rows involving any class-pure entity: 0.02%
+  5. shortcut baselines (logistic regression, stratified 80/20, test ROC-AUC):
+     a) 3 distances         AUC=0.516  (1s)
+     b) log length          AUC=0.513  (0s)
+     c) len + norms         AUC=0.514  (1s)
+     e) embeddings (128)    AUC=0.507  (5s)
+     d) degree (train only) AUC=0.551
+
+======================================================================
+Summary
+======================================================================
+                                   paper         random   degree_aware
+KS d_euc                           0.613          0.084          0.020
+KS d_cos                           0.499          0.001          0.002
+KS d_mah                           0.599          0.079          0.017
+KS log10 gene length               0.324          0.130          0.021
+KS gene vector norm                0.468          0.080          0.016
+rho deg gene                      -0.154         -0.346         +0.992
+rho deg mirna                     -0.157         -0.400         +1.000
+pure genes                           695              0            289
+pure mirnas                            0              0              0
+rows w/ pure entity                2.51%          0.00%          0.02%
+AUC a) 3 distances                 0.859          0.561          0.516
+AUC b) log length                  0.711          0.582          0.513
+AUC c) len + norms                 0.801          0.588          0.514
+AUC e) embeddings (128)            0.685          0.613          0.507
+AUC d) degree (train)              0.894          0.880          0.551
+KS = Kolmogorov-Smirnov statistic pos vs neg (0 = same distribution, 1 = disjoint).
+AUC > 0.5 from a single non-biological feature = a shortcut the model can exploit.

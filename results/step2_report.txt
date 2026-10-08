@@ -1,0 +1,136 @@
+======================================================================
+Ensembl input files
+======================================================================
+  Homo_sapiens.GRCh38.116.gtf.gz                           134.6 MB  gzip -t OK
+  Homo_sapiens.GRCh38.cdna.all.fa.gz                       175.4 MB  gzip -t OK
+  Homo_sapiens.GRCh38.116.entrez.tsv.gz                      5.8 MB  gzip -t OK
+  Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz           841.1 MB  gzip -t OK
+  Homo_sapiens.GRCh38.dna.primary_assembly.fa                2.9 GB  .fai 6.3 KB
+  genome sequences: 194 total; primary present: 25/25
+
+Ensembl release: 116
+
+======================================================================
+GTF
+======================================================================
+gene records: 78941; on 1-22/X/Y/MT: 78733
+transcript records: 646577; Ensembl_canonical: 78941
+
+======================================================================
+Target gene -> Ensembl gene_id
+======================================================================
+Target gene symbols in positive pairs: 16882
+  symbol      16590
+  entrez        221
+  unmapped       71
+30 unmapped examples (most pairs first; 1977 positive pairs lost):
+  BAGE3                entrez=85318            115
+  C6orf223             entrez=221416            97
+  KIAA0754             entrez=643314            94
+  BAGE5                entrez=85316             83
+  C9orf47              entrez=286223            79
+  BAGE4                entrez=85317             77
+  TRP-AGG2-4           entrez=100189072         72
+  MTRNR2L3             entrez=100462983         67
+  MTRNR2L5             entrez=100463289         65
+  MTRNR2L10            entrez=100463488         65
+  CDR1-AS              entrez=103611090         64
+  LUZP6                entrez=767558            61
+  TIAF1                entrez=9220              60
+  C21orf62-AS1         entrez=54067             59
+  MTRNR2L1             entrez=100462977         58
+  MTRNR2L7             entrez=100288485         58
+  MTRNR2L4             entrez=100463285         57
+  FAM153B              entrez=202134            53
+  FLJ45513             entrez=729220            49
+  C8orf86              entrez=389649            45
+  NDUFA4P1             entrez=360165            44
+  MTRNR2L6             entrez=100463482         39
+  AZF1                 entrez=560               37
+  DGS2                 entrez=8026              37
+  MTRNR2L11            entrez=100463489         34
+  ADGRF2               entrez=222611            32
+  MTRNR2L8             entrez=100463486         29
+  AUTS8                entrez=282553            27
+  PRY                  entrez=9081              22
+  PRY2                 entrez=442862            22
+gene_ids reached by >1 symbol (merged): 7  e.g. ENSG00000112541: ['LINC00473', 'PDE10A']
+
+======================================================================
+Sequences
+======================================================================
+Genes extracted (genomic): 16804; dropped for >10% N: 8
+  ENSG00000058453 CROCC 1:16740273-16972964 N=21.5%
+  ENSG00000203697 CAPN8 1:223538007-223665737 N=39.1%
+  ENSG00000162105 SHANK2 11:70467805-71252844 N=12.7%
+  ENSG00000185974 GRK1 13:113667219-113740559 N=68.2%
+  ENSG00000185164 NOMO2 16:18417325-18562211 N=34.5%
+  ENSG00000167216 KATNAL2 18:46917180-47103478 N=26.8%
+  ENSG00000274333 LOC389831 21:5553602-5695242 N=35.3%
+  ENSG00000170379 TCAF2 7:143620952-143732460 N=44.8%
+cDNA chosen: 16555 canonical, 0 longest; 241 genes have no transcript in cdna.all (e.g. ncRNA-only genes)
+  no-cDNA biotypes: lncRNA=219, miRNA=11, snRNA=5, snoRNA=5, TEC=1
+
+======================================================================
+Sanity checks: genomic vs canonical cDNA at the transcription start site
+======================================================================
+  TP53 (ENSG00000141510, strand -, expected -) transcript ENST00000269305 [canonical]
+    gene span 17:7661779-7687546; transcript 7668421-7687490; TSS offset in gene = 56; first exon = 114 nt; compared 100 nt
+    TSS-adjusted comparison: MATCH
+    plain gene-start comparison (info): no match
+    genomic@TSS: CTCAAAAGTCTAGAGCCACCGTCCAGGGAGCAGGTAGCTGCTGGGCTCCGGGGACACTTT
+    cDNA[:60]  : CTCAAAAGTCTAGAGCCACCGTCCAGGGAGCAGGTAGCTGCTGGGCTCCGGGGACACTTT
+  EGFR (ENSG00000146648, strand +, expected +) transcript ENST00000275493 [canonical]
+    gene span 7:55018820-55211628; transcript 55019017-55211628; TSS offset in gene = 197; first exon = 349 nt; compared 100 nt
+    TSS-adjusted comparison: MATCH
+    plain gene-start comparison (info): no match
+    genomic@TSS: AGACGTCCGGGCAGCCCCCGGCGCAGCGCGGCCGCAGCAGCCTCCGCCCCCCGCACGGTG
+    cDNA[:60]  : AGACGTCCGGGCAGCCCCCGGCGCAGCGCGGCCGCAGCAGCCTCCGCCCCCCGCACGGTG
+
+======================================================================
+Lengths
+======================================================================
+genomic: n=16796 min=72 median=32564 p90=178371 p99=674530 max=2473539 total_nt=1,277,813,375
+cdna:    n=16555 min=117 median=3175 p90=7491 p99=14245 max=109224 total_nt=64,941,208
+
+======================================================================
+Filtering / final counts
+======================================================================
+Mapped pairs (all evidence levels):           1162644
+Positive pairs (strong/weak):                 1162320
+  with target gene mapped to Ensembl:         1160343
+  after dropping high-N genes:                1159968
+  after merging symbols on the same gene_id:  1159808
+Final positives: 1159808; miRNAs: 2334; genes: 16796
+Positives by evidence_level:
+  weak        1151673
+  strong         8135
+miRNAs in index belonging to a shared-sequence group: 35
+
+======================================================================
+known_pairs.csv (excluded from negative sampling)
+======================================================================
+not_found names with renamed candidates: 32
+source                    rows  in index  only this source
+ambiguous_arm           924500    624444            592212
+mapped                 1162644   1160289           1114859
+renamed_candidate        84666     64887             51719
+Unique (mirna_idx, gene_idx) known pairs: 1804060
+  of which also positives: 1159808
+  extra beyond positives:  644252
+Density: known pairs cover 4.60% of the 2334 x 16796 grid
+
+======================================================================
+Disk usage
+======================================================================
+  data/raw/Homo_sapiens.GRCh38.dna.primary_assembly.fa            2.9 GB
+  data/raw/Homo_sapiens.GRCh38.dna.primary_assembly.fa.fai        6.3 KB
+  data/interim/genes_genomic.fa                                   1.2 GB
+  data/interim/genes_genomic.fa.fai                             624.6 KB
+  data/interim/genes_cdna.fa                                     63.2 MB
+  data/interim/genes_cdna.fa.fai                                578.6 KB
+  data/interim/genes.csv                                          1.7 MB
+  data/processed/gene_index.csv                                 455.4 KB
+  data/processed/mirna_index.csv                                189.6 KB
+  data/processed/positives.csv                                   60.7 MB
+  data/processed/known_pairs.csv                                 33.8 MB

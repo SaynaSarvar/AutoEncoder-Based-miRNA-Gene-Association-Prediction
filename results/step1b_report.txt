@@ -1,0 +1,128 @@
+======================================================================
+miRBase aliases
+======================================================================
+Trying download sources:
+  https://mirbase.org/download/aliases.txt -> 500, rejected
+  https://www.mirbase.org/ftp/CURRENT/aliases.txt.gz -> 404, rejected
+  https://www.mirbase.org/download_version_files/22.1/aliases.txt -> 500, rejected
+  ftp://mirbase.org/pub/mirbase/CURRENT/aliases.txt.gz -> InvalidSchema, rejected
+No valid aliases file -> FALLBACK mode (mature.fa only)
+
+======================================================================
+Name resolution (mode: fallback)
+======================================================================
+Distinct miRTarBase names: 3048
+rule / reason          names     pairs
+ambiguous_arm            482    462250   (unmapped)
+case_insensitive           2         2   (mapped)
+exact                   1748    662510   (mapped)
+non_human                 33        40   (unmapped)
+not_found                151    102294   (unmapped)
+single_arm               632    503709   (mapped)
+
+Pairs lost to ambiguous_arm: 462250 (482 names) -- this is what the missing aliases file costs
+Top 30 ambiguous_arm names by pair count:
+  hsa-miR-4775               2720
+  hsa-miR-940                2556
+  hsa-miR-665                2334
+  hsa-miR-3652               2256
+  hsa-miR-4430               2256
+  hsa-miR-766                2066
+  hsa-miR-15a                2032
+  hsa-miR-424                2032
+  hsa-miR-497                2032
+  hsa-miR-195                2032
+  hsa-miR-15b                2032
+  hsa-miR-214                2018
+  hsa-miR-1976               2009
+  hsa-miR-106a               1997
+  hsa-miR-106b               1997
+  hsa-miR-20b                1997
+  hsa-miR-93                 1997
+  hsa-miR-519d               1997
+  hsa-miR-20a                1997
+  hsa-miR-17                 1997
+  hsa-miR-520g               1960
+  hsa-miR-579                1954
+  hsa-miR-1915               1947
+  hsa-miR-570                1930
+  hsa-miR-27a                1896
+  hsa-miR-27b                1896
+  hsa-miR-150                1888
+  hsa-miR-612                1884
+  hsa-miR-548ac              1880
+  hsa-miR-548z               1880
+
+Top 10 single_arm mappings by pair count:
+  hsa-miR-1827            -> hsa-miR-1827-3p            2673
+  hsa-miR-3689c           -> hsa-miR-3689c-3p           2491
+  hsa-miR-661             -> hsa-miR-661-3p             2378
+  hsa-miR-3662            -> hsa-miR-3662-3p            2314
+  hsa-miR-4284            -> hsa-miR-4284-5p            2297
+  hsa-miR-4282            -> hsa-miR-4282-3p            2275
+  hsa-miR-3148            -> hsa-miR-3148-5p            2218
+  hsa-miR-520h            -> hsa-miR-520h-3p            2149
+  hsa-miR-3135b           -> hsa-miR-3135b-3p           2136
+  hsa-miR-4478            -> hsa-miR-4478-5p            2124
+
+30 example not_found names (most pairs first, of 151):
+  hsa-miR-4459                                  2592
+  hsa-miR-3163                                  2568
+  hsa-miR-607                                   2242
+  hsa-miR-3929                                  2122
+  hsa-miR-4419b                                 2122
+  hsa-miR-4433                                  2015
+  hsa-miR-5096                                  1885
+  hsa-miR-5095                                  1881
+  hsa-miR-371-5p                                1820
+  hsa-miR-1285                                  1811
+  hsa-miR-3647-3p                               1685
+  hsa-miR-4419a                                 1565
+  hsa-miR-1273f                                 1547
+  hsa-miR-4700-5p                               1544
+  hsa-miR-4672                                  1535
+  hsa-miR-203                                   1516
+  hsa-miR-4666-3p                               1508
+  hsa-miR-3916                                  1499
+  hsa-miR-3149                                  1474
+  hsa-miR-4472                                  1358
+  hsa-miR-1254                                  1337
+  hsa-miR-3607-3p                               1306
+  hsa-miR-664                                   1306
+  hsa-miR-3155                                  1292
+  hsa-miR-3653                                  1264
+  hsa-miR-544                                   1212
+  hsa-miR-1273e                                 1205
+  hsa-miR-1260                                  1192
+  hsa-miR-558                                   1184
+  hsa-miR-1237                                  1165
+
+======================================================================
+Pairs
+======================================================================
+Pairs before mapping (interactions_raw):   1730805
+Pairs with a mapped miRNA:                 1166221
+  of which collapsed by merging names:     7154 rows -> 3577 pairs
+Final unique pairs:                        1162644
+Final unique miRNAs:                       2334
+Final unique genes:                        16885
+Pairs by evidence_level:
+  weak                  1154175
+  strong                   8145
+  nonfunctional_only        324
+Pairs by map_rule (merged pairs may list several rules):
+  exact                            658935
+  single_arm                       500138
+  exact;single_arm                   3569
+  case_insensitive                      1
+  case_insensitive;exact                1
+
+======================================================================
+Shared-sequence groups (mature.fa)
+======================================================================
+seq_group ids: 2763 (20 groups with >1 miRNA, covering 46 miRNAs)
+Final pairs whose miRNA is in a shared-sequence group: 21408 (37 miRNAs)
+By evidence_level:
+  weak                    21353
+  strong                     50
+  nonfunctional_only          5

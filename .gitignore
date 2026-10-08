@@ -1,0 +1,37 @@
+# ---- data: never committed (raw sources have their own licences; derived files are large)
+data/
+
+# ---- large / binary artefacts anywhere
+*.npy
+*.npz
+*.parquet
+*.model
+*.pt
+*.joblib
+*.fa
+*.fai
+*.gz
+*.download
+corpus_*.txt
+
+# ---- model weights, scalers and predictions inside run folders (metrics/config/epoch CSVs are kept)
+results/clf/**/predictions.parquet
+results/clf/**/model.pt
+results/clf/**/model.joblib
+results/clf/**/scalers.joblib
+results/experiments/timesteps_bench.json
+
+# ---- logs larger than 1 MB (none at the time of writing; listed explicitly if they appear)
+# results/*.log files are all < 1 MB and are kept
+
+# ---- Python / editor / OS
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.venv/
+
+# Local data and notebooks
+data/
+notebooks/
+.DS_Store

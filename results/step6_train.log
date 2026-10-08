@@ -1,0 +1,1030 @@
+2026-10-05 21:47:31,077 [paper_random_holdout_f0_z8] device=cpu train=1,670,122 val=185,570 test=463,924
+2026-10-05 21:47:36,907 [paper_random_holdout_f0_z8] epoch   1 train 0.009543 val 0.008981 5.8s *
+2026-10-05 21:47:42,825 [paper_random_holdout_f0_z8] epoch   2 train 0.008220 val 0.007992 5.9s *
+2026-10-05 21:47:48,737 [paper_random_holdout_f0_z8] epoch   3 train 0.007833 val 0.007767 5.9s *
+2026-10-05 21:47:54,674 [paper_random_holdout_f0_z8] epoch   4 train 0.007645 val 0.007549 5.9s *
+2026-10-05 21:48:00,661 [paper_random_holdout_f0_z8] epoch   5 train 0.007505 val 0.007447 6.0s *
+2026-10-05 21:48:06,624 [paper_random_holdout_f0_z8] epoch   6 train 0.007402 val 0.007350 6.0s *
+2026-10-05 21:48:12,566 [paper_random_holdout_f0_z8] epoch   7 train 0.007325 val 0.007292 5.9s *
+2026-10-05 21:48:18,520 [paper_random_holdout_f0_z8] epoch   8 train 0.007262 val 0.007255 6.0s *
+2026-10-05 21:48:24,554 [paper_random_holdout_f0_z8] epoch   9 train 0.007210 val 0.007221 6.0s *
+2026-10-05 21:48:30,665 [paper_random_holdout_f0_z8] epoch  10 train 0.007165 val 0.007126 6.1s *
+2026-10-05 21:48:36,686 [paper_random_holdout_f0_z8] epoch  11 train 0.007131 val 0.007165 6.0s
+2026-10-05 21:48:42,683 [paper_random_holdout_f0_z8] epoch  12 train 0.007099 val 0.007101 6.0s *
+2026-10-05 21:48:48,847 [paper_random_holdout_f0_z8] epoch  13 train 0.007073 val 0.007123 6.2s
+2026-10-05 21:48:54,770 [paper_random_holdout_f0_z8] epoch  14 train 0.007051 val 0.007034 5.9s *
+2026-10-05 21:49:01,017 [paper_random_holdout_f0_z8] epoch  15 train 0.007030 val 0.007010 6.2s *
+2026-10-05 21:49:07,177 [paper_random_holdout_f0_z8] epoch  16 train 0.007011 val 0.007038 6.2s
+2026-10-05 21:49:13,426 [paper_random_holdout_f0_z8] epoch  17 train 0.006992 val 0.006956 6.2s *
+2026-10-05 21:49:19,664 [paper_random_holdout_f0_z8] epoch  18 train 0.006976 val 0.006950 6.2s *
+2026-10-05 21:49:25,947 [paper_random_holdout_f0_z8] epoch  19 train 0.006960 val 0.006927 6.3s *
+2026-10-05 21:49:32,157 [paper_random_holdout_f0_z8] epoch  20 train 0.006946 val 0.006906 6.2s *
+2026-10-05 21:49:38,335 [paper_random_holdout_f0_z8] epoch  21 train 0.006935 val 0.006942 6.2s
+2026-10-05 21:49:44,435 [paper_random_holdout_f0_z8] epoch  22 train 0.006921 val 0.006894 6.1s *
+2026-10-05 21:49:50,583 [paper_random_holdout_f0_z8] epoch  23 train 0.006909 val 0.006859 6.1s *
+2026-10-05 21:49:56,673 [paper_random_holdout_f0_z8] epoch  24 train 0.006899 val 0.006913 6.1s
+2026-10-05 21:50:02,764 [paper_random_holdout_f0_z8] epoch  25 train 0.006887 val 0.006896 6.1s
+2026-10-05 21:50:08,882 [paper_random_holdout_f0_z8] epoch  26 train 0.006877 val 0.006907 6.1s
+2026-10-05 21:50:14,906 [paper_random_holdout_f0_z8] epoch  27 train 0.006869 val 0.006844 6.0s *
+2026-10-05 21:50:21,046 [paper_random_holdout_f0_z8] epoch  28 train 0.006860 val 0.006906 6.1s
+2026-10-05 21:50:27,193 [paper_random_holdout_f0_z8] epoch  29 train 0.006851 val 0.006819 6.1s *
+2026-10-05 21:50:33,440 [paper_random_holdout_f0_z8] epoch  30 train 0.006847 val 0.006824 6.2s
+2026-10-05 21:50:39,555 [paper_random_holdout_f0_z8] epoch  31 train 0.006841 val 0.006855 6.1s
+2026-10-05 21:50:45,703 [paper_random_holdout_f0_z8] epoch  32 train 0.006835 val 0.006881 6.1s
+2026-10-05 21:50:51,806 [paper_random_holdout_f0_z8] epoch  33 train 0.006828 val 0.006847 6.1s
+2026-10-05 21:50:57,915 [paper_random_holdout_f0_z8] epoch  34 train 0.006822 val 0.006830 6.1s
+2026-10-05 21:51:04,035 [paper_random_holdout_f0_z8] epoch  35 train 0.006817 val 0.006827 6.1s
+2026-10-05 21:51:10,167 [paper_random_holdout_f0_z8] epoch  36 train 0.006809 val 0.006786 6.1s *
+2026-10-05 21:51:16,208 [paper_random_holdout_f0_z8] epoch  37 train 0.006806 val 0.006799 6.0s
+2026-10-05 21:51:22,256 [paper_random_holdout_f0_z8] epoch  38 train 0.006797 val 0.006802 6.0s
+2026-10-05 21:51:28,298 [paper_random_holdout_f0_z8] epoch  39 train 0.006797 val 0.006865 6.0s
+2026-10-05 21:51:34,348 [paper_random_holdout_f0_z8] epoch  40 train 0.006791 val 0.006788 6.0s
+2026-10-05 21:51:40,438 [paper_random_holdout_f0_z8] epoch  41 train 0.006787 val 0.006833 6.1s
+2026-10-05 21:51:46,488 [paper_random_holdout_f0_z8] epoch  42 train 0.006782 val 0.006787 6.0s
+2026-10-05 21:51:52,560 [paper_random_holdout_f0_z8] epoch  43 train 0.006777 val 0.006743 6.1s *
+2026-10-05 21:51:58,674 [paper_random_holdout_f0_z8] epoch  44 train 0.006773 val 0.006761 6.1s
+2026-10-05 21:52:04,791 [paper_random_holdout_f0_z8] epoch  45 train 0.006770 val 0.006774 6.1s
+2026-10-05 21:52:10,878 [paper_random_holdout_f0_z8] epoch  46 train 0.006764 val 0.006755 6.1s
+2026-10-05 21:52:16,965 [paper_random_holdout_f0_z8] epoch  47 train 0.006760 val 0.006772 6.1s
+2026-10-05 21:52:23,060 [paper_random_holdout_f0_z8] epoch  48 train 0.006756 val 0.006793 6.1s
+2026-10-05 21:52:29,143 [paper_random_holdout_f0_z8] epoch  49 train 0.006754 val 0.006799 6.1s
+2026-10-05 21:52:35,224 [paper_random_holdout_f0_z8] epoch  50 train 0.006750 val 0.006749 6.1s
+2026-10-05 21:52:41,309 [paper_random_holdout_f0_z8] epoch  51 train 0.006747 val 0.006749 6.1s
+2026-10-05 21:52:47,380 [paper_random_holdout_f0_z8] epoch  52 train 0.006742 val 0.006761 6.1s
+2026-10-05 21:52:53,457 [paper_random_holdout_f0_z8] epoch  53 train 0.006740 val 0.006762 6.1s
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: divide by zero encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: overflow encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: invalid value encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: divide by zero encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: overflow encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: invalid value encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+2026-10-05 21:52:56,182 [paper_random_holdout_f0_z8] done: best epoch 43/53, test MSE 0.006731 (baseline 0.015271), probe AUC 0.550, 5.4 min
+2026-10-05 21:52:56,254 [paper_random_holdout_f0_z16] device=cpu train=1,670,122 val=185,570 test=463,924
+2026-10-05 21:53:02,224 [paper_random_holdout_f0_z16] epoch   1 train 0.006439 val 0.005681 6.0s *
+2026-10-05 21:53:08,212 [paper_random_holdout_f0_z16] epoch   2 train 0.005596 val 0.005533 6.0s *
+2026-10-05 21:53:14,179 [paper_random_holdout_f0_z16] epoch   3 train 0.005487 val 0.005455 6.0s *
+2026-10-05 21:53:20,319 [paper_random_holdout_f0_z16] epoch   4 train 0.005419 val 0.005428 6.1s *
+2026-10-05 21:53:26,478 [paper_random_holdout_f0_z16] epoch   5 train 0.005365 val 0.005342 6.2s *
+2026-10-05 21:53:32,609 [paper_random_holdout_f0_z16] epoch   6 train 0.005321 val 0.005310 6.1s *
+2026-10-05 21:53:38,571 [paper_random_holdout_f0_z16] epoch   7 train 0.005285 val 0.005273 6.0s *
+2026-10-05 21:53:44,480 [paper_random_holdout_f0_z16] epoch   8 train 0.005256 val 0.005252 5.9s *
+2026-10-05 21:53:50,603 [paper_random_holdout_f0_z16] epoch   9 train 0.005231 val 0.005219 6.1s *
+2026-10-05 21:53:56,730 [paper_random_holdout_f0_z16] epoch  10 train 0.005211 val 0.005229 6.1s
+2026-10-05 21:54:02,875 [paper_random_holdout_f0_z16] epoch  11 train 0.005192 val 0.005185 6.1s *
+2026-10-05 21:54:08,883 [paper_random_holdout_f0_z16] epoch  12 train 0.005174 val 0.005160 6.0s *
+2026-10-05 21:54:14,878 [paper_random_holdout_f0_z16] epoch  13 train 0.005160 val 0.005145 6.0s *
+2026-10-05 21:54:21,309 [paper_random_holdout_f0_z16] epoch  14 train 0.005145 val 0.005187 6.4s
+2026-10-05 21:54:27,768 [paper_random_holdout_f0_z16] epoch  15 train 0.005134 val 0.005122 6.5s *
+2026-10-05 21:54:33,728 [paper_random_holdout_f0_z16] epoch  16 train 0.005123 val 0.005120 6.0s *
+2026-10-05 21:54:40,241 [paper_random_holdout_f0_z16] epoch  17 train 0.005115 val 0.005131 6.5s
+2026-10-05 21:54:46,699 [paper_random_holdout_f0_z16] epoch  18 train 0.005106 val 0.005108 6.5s *
+2026-10-05 21:54:52,676 [paper_random_holdout_f0_z16] epoch  19 train 0.005098 val 0.005106 6.0s *
+2026-10-05 21:54:58,660 [paper_random_holdout_f0_z16] epoch  20 train 0.005090 val 0.005098 6.0s *
+2026-10-05 21:55:04,640 [paper_random_holdout_f0_z16] epoch  21 train 0.005083 val 0.005080 6.0s *
+2026-10-05 21:55:10,755 [paper_random_holdout_f0_z16] epoch  22 train 0.005078 val 0.005086 6.1s
+2026-10-05 21:55:16,880 [paper_random_holdout_f0_z16] epoch  23 train 0.005071 val 0.005093 6.1s
+2026-10-05 21:55:23,032 [paper_random_holdout_f0_z16] epoch  24 train 0.005066 val 0.005061 6.2s *
+2026-10-05 21:55:29,157 [paper_random_holdout_f0_z16] epoch  25 train 0.005060 val 0.005089 6.1s
+2026-10-05 21:55:35,285 [paper_random_holdout_f0_z16] epoch  26 train 0.005056 val 0.005045 6.1s *
+2026-10-05 21:55:41,257 [paper_random_holdout_f0_z16] epoch  27 train 0.005051 val 0.005061 6.0s
+2026-10-05 21:55:47,219 [paper_random_holdout_f0_z16] epoch  28 train 0.005047 val 0.005033 6.0s *
+2026-10-05 21:55:53,052 [paper_random_holdout_f0_z16] epoch  29 train 0.005042 val 0.005043 5.8s
+2026-10-05 21:55:58,887 [paper_random_holdout_f0_z16] epoch  30 train 0.005038 val 0.005049 5.8s
+2026-10-05 21:56:04,744 [paper_random_holdout_f0_z16] epoch  31 train 0.005034 val 0.005040 5.9s
+2026-10-05 21:56:10,597 [paper_random_holdout_f0_z16] epoch  32 train 0.005031 val 0.005050 5.9s
+2026-10-05 21:56:16,444 [paper_random_holdout_f0_z16] epoch  33 train 0.005027 val 0.005013 5.8s *
+2026-10-05 21:56:22,591 [paper_random_holdout_f0_z16] epoch  34 train 0.005024 val 0.005035 6.1s
+2026-10-05 21:56:28,711 [paper_random_holdout_f0_z16] epoch  35 train 0.005021 val 0.005026 6.1s
+2026-10-05 21:56:34,843 [paper_random_holdout_f0_z16] epoch  36 train 0.005018 val 0.005002 6.1s *
+2026-10-05 21:56:40,974 [paper_random_holdout_f0_z16] epoch  37 train 0.005016 val 0.005035 6.1s
+2026-10-05 21:56:47,104 [paper_random_holdout_f0_z16] epoch  38 train 0.005014 val 0.005039 6.1s
+2026-10-05 21:56:53,234 [paper_random_holdout_f0_z16] epoch  39 train 0.005011 val 0.005039 6.1s
+2026-10-05 21:56:59,374 [paper_random_holdout_f0_z16] epoch  40 train 0.005009 val 0.005029 6.1s
+2026-10-05 21:57:05,524 [paper_random_holdout_f0_z16] epoch  41 train 0.005007 val 0.005026 6.1s
+2026-10-05 21:57:11,656 [paper_random_holdout_f0_z16] epoch  42 train 0.005005 val 0.005009 6.1s
+2026-10-05 21:57:17,785 [paper_random_holdout_f0_z16] epoch  43 train 0.005002 val 0.004994 6.1s *
+2026-10-05 21:57:23,952 [paper_random_holdout_f0_z16] epoch  44 train 0.005001 val 0.005021 6.2s
+2026-10-05 21:57:30,107 [paper_random_holdout_f0_z16] epoch  45 train 0.004999 val 0.004998 6.2s
+2026-10-05 21:57:36,262 [paper_random_holdout_f0_z16] epoch  46 train 0.004997 val 0.004998 6.2s
+2026-10-05 21:57:42,428 [paper_random_holdout_f0_z16] epoch  47 train 0.004995 val 0.005005 6.2s
+2026-10-05 21:57:48,591 [paper_random_holdout_f0_z16] epoch  48 train 0.004993 val 0.005013 6.2s
+2026-10-05 21:57:54,761 [paper_random_holdout_f0_z16] epoch  49 train 0.004992 val 0.004997 6.2s
+2026-10-05 21:58:00,923 [paper_random_holdout_f0_z16] epoch  50 train 0.004990 val 0.004983 6.2s *
+2026-10-05 21:58:06,907 [paper_random_holdout_f0_z16] epoch  51 train 0.004988 val 0.004997 6.0s
+2026-10-05 21:58:12,871 [paper_random_holdout_f0_z16] epoch  52 train 0.004987 val 0.004996 6.0s
+2026-10-05 21:58:18,836 [paper_random_holdout_f0_z16] epoch  53 train 0.004985 val 0.004988 6.0s
+2026-10-05 21:58:24,801 [paper_random_holdout_f0_z16] epoch  54 train 0.004983 val 0.005028 6.0s
+2026-10-05 21:58:30,820 [paper_random_holdout_f0_z16] epoch  55 train 0.004982 val 0.005009 6.0s
+2026-10-05 21:58:36,835 [paper_random_holdout_f0_z16] epoch  56 train 0.004981 val 0.005003 6.0s
+2026-10-05 21:58:42,823 [paper_random_holdout_f0_z16] epoch  57 train 0.004979 val 0.004978 6.0s *
+2026-10-05 21:58:48,831 [paper_random_holdout_f0_z16] epoch  58 train 0.004978 val 0.005023 6.0s
+2026-10-05 21:58:54,835 [paper_random_holdout_f0_z16] epoch  59 train 0.004977 val 0.004975 6.0s *
+2026-10-05 21:59:01,014 [paper_random_holdout_f0_z16] epoch  60 train 0.004975 val 0.004983 6.2s
+2026-10-05 21:59:07,175 [paper_random_holdout_f0_z16] epoch  61 train 0.004974 val 0.004994 6.2s
+2026-10-05 21:59:13,329 [paper_random_holdout_f0_z16] epoch  62 train 0.004973 val 0.004975 6.2s
+2026-10-05 21:59:19,479 [paper_random_holdout_f0_z16] epoch  63 train 0.004972 val 0.005010 6.2s
+2026-10-05 21:59:25,628 [paper_random_holdout_f0_z16] epoch  64 train 0.004971 val 0.004977 6.1s
+2026-10-05 21:59:31,786 [paper_random_holdout_f0_z16] epoch  65 train 0.004969 val 0.004970 6.2s *
+2026-10-05 21:59:37,942 [paper_random_holdout_f0_z16] epoch  66 train 0.004969 val 0.004981 6.2s
+2026-10-05 21:59:44,172 [paper_random_holdout_f0_z16] epoch  67 train 0.004968 val 0.004962 6.2s *
+2026-10-05 21:59:50,145 [paper_random_holdout_f0_z16] epoch  68 train 0.004967 val 0.004957 6.0s *
+2026-10-05 21:59:56,135 [paper_random_holdout_f0_z16] epoch  69 train 0.004966 val 0.004969 6.0s
+2026-10-05 22:00:02,142 [paper_random_holdout_f0_z16] epoch  70 train 0.004965 val 0.004971 6.0s
+2026-10-05 22:00:08,154 [paper_random_holdout_f0_z16] epoch  71 train 0.004965 val 0.004964 6.0s
+2026-10-05 22:00:14,163 [paper_random_holdout_f0_z16] epoch  72 train 0.004964 val 0.004959 6.0s
+2026-10-05 22:00:20,163 [paper_random_holdout_f0_z16] epoch  73 train 0.004963 val 0.004973 6.0s
+2026-10-05 22:00:26,163 [paper_random_holdout_f0_z16] epoch  74 train 0.004961 val 0.004982 6.0s
+2026-10-05 22:00:32,184 [paper_random_holdout_f0_z16] epoch  75 train 0.004961 val 0.004960 6.0s
+2026-10-05 22:00:38,186 [paper_random_holdout_f0_z16] epoch  76 train 0.004960 val 0.004955 6.0s *
+2026-10-05 22:00:44,655 [paper_random_holdout_f0_z16] epoch  77 train 0.004959 val 0.004972 6.5s
+2026-10-05 22:00:51,174 [paper_random_holdout_f0_z16] epoch  78 train 0.004958 val 0.004966 6.5s
+2026-10-05 22:00:57,664 [paper_random_holdout_f0_z16] epoch  79 train 0.004957 val 0.004983 6.5s
+2026-10-05 22:01:04,205 [paper_random_holdout_f0_z16] epoch  80 train 0.004957 val 0.004955 6.5s
+2026-10-05 22:01:10,703 [paper_random_holdout_f0_z16] epoch  81 train 0.004956 val 0.004961 6.5s
+2026-10-05 22:01:17,173 [paper_random_holdout_f0_z16] epoch  82 train 0.004955 val 0.004965 6.5s
+2026-10-05 22:01:23,654 [paper_random_holdout_f0_z16] epoch  83 train 0.004955 val 0.004960 6.5s
+2026-10-05 22:01:30,157 [paper_random_holdout_f0_z16] epoch  84 train 0.004954 val 0.004965 6.5s
+2026-10-05 22:01:36,653 [paper_random_holdout_f0_z16] epoch  85 train 0.004953 val 0.004964 6.5s
+2026-10-05 22:01:43,215 [paper_random_holdout_f0_z16] epoch  86 train 0.004953 val 0.004945 6.6s *
+2026-10-05 22:01:49,758 [paper_random_holdout_f0_z16] epoch  87 train 0.004952 val 0.004947 6.5s
+2026-10-05 22:01:56,288 [paper_random_holdout_f0_z16] epoch  88 train 0.004952 val 0.004965 6.5s
+2026-10-05 22:02:02,849 [paper_random_holdout_f0_z16] epoch  89 train 0.004951 val 0.004943 6.6s *
+2026-10-05 22:02:08,968 [paper_random_holdout_f0_z16] epoch  90 train 0.004950 val 0.004944 6.1s
+2026-10-05 22:02:15,064 [paper_random_holdout_f0_z16] epoch  91 train 0.004950 val 0.004955 6.1s
+2026-10-05 22:02:21,165 [paper_random_holdout_f0_z16] epoch  92 train 0.004949 val 0.005041 6.1s
+2026-10-05 22:02:27,246 [paper_random_holdout_f0_z16] epoch  93 train 0.004948 val 0.004957 6.1s
+2026-10-05 22:02:33,335 [paper_random_holdout_f0_z16] epoch  94 train 0.004948 val 0.004966 6.1s
+2026-10-05 22:02:39,434 [paper_random_holdout_f0_z16] epoch  95 train 0.004948 val 0.004953 6.1s
+2026-10-05 22:02:45,543 [paper_random_holdout_f0_z16] epoch  96 train 0.004947 val 0.004962 6.1s
+2026-10-05 22:02:51,622 [paper_random_holdout_f0_z16] epoch  97 train 0.004946 val 0.004938 6.1s *
+2026-10-05 22:02:57,743 [paper_random_holdout_f0_z16] epoch  98 train 0.004946 val 0.004947 6.1s
+2026-10-05 22:03:03,849 [paper_random_holdout_f0_z16] epoch  99 train 0.004946 val 0.004947 6.1s
+2026-10-05 22:03:09,946 [paper_random_holdout_f0_z16] epoch 100 train 0.004945 val 0.004956 6.1s
+2026-10-05 22:03:16,048 [paper_random_holdout_f0_z16] epoch 101 train 0.004945 val 0.004954 6.1s
+2026-10-05 22:03:22,143 [paper_random_holdout_f0_z16] epoch 102 train 0.004944 val 0.004936 6.1s *
+2026-10-05 22:03:28,240 [paper_random_holdout_f0_z16] epoch 103 train 0.004943 val 0.004950 6.1s
+2026-10-05 22:03:34,307 [paper_random_holdout_f0_z16] epoch 104 train 0.004942 val 0.004940 6.1s
+2026-10-05 22:03:40,418 [paper_random_holdout_f0_z16] epoch 105 train 0.004943 val 0.004950 6.1s
+2026-10-05 22:03:46,495 [paper_random_holdout_f0_z16] epoch 106 train 0.004942 val 0.004953 6.1s
+2026-10-05 22:03:52,600 [paper_random_holdout_f0_z16] epoch 107 train 0.004941 val 0.004983 6.1s
+2026-10-05 22:03:58,691 [paper_random_holdout_f0_z16] epoch 108 train 0.004941 val 0.004970 6.1s
+2026-10-05 22:04:04,807 [paper_random_holdout_f0_z16] epoch 109 train 0.004941 val 0.004942 6.1s
+2026-10-05 22:04:10,898 [paper_random_holdout_f0_z16] epoch 110 train 0.004940 val 0.004938 6.1s
+2026-10-05 22:04:16,986 [paper_random_holdout_f0_z16] epoch 111 train 0.004939 val 0.004946 6.1s
+2026-10-05 22:04:23,076 [paper_random_holdout_f0_z16] epoch 112 train 0.004939 val 0.004953 6.1s
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: divide by zero encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: overflow encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: invalid value encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: divide by zero encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: overflow encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: invalid value encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+2026-10-05 22:04:25,322 [paper_random_holdout_f0_z16] done: best epoch 102/112, test MSE 0.004926 (baseline 0.015271), probe AUC 0.588, 11.4 min
+2026-10-05 22:04:25,396 [paper_random_holdout_f0_z32] device=cpu train=1,670,122 val=185,570 test=463,924
+2026-10-05 22:04:32,967 [paper_random_holdout_f0_z32] epoch   1 train 0.005946 val 0.004867 7.6s *
+2026-10-05 22:04:41,023 [paper_random_holdout_f0_z32] epoch   2 train 0.004750 val 0.004683 8.1s *
+2026-10-05 22:04:48,924 [paper_random_holdout_f0_z32] epoch   3 train 0.004641 val 0.004620 7.9s *
+2026-10-05 22:04:57,065 [paper_random_holdout_f0_z32] epoch   4 train 0.004575 val 0.004545 8.1s *
+2026-10-05 22:05:04,964 [paper_random_holdout_f0_z32] epoch   5 train 0.004512 val 0.004487 7.9s *
+2026-10-05 22:05:12,836 [paper_random_holdout_f0_z32] epoch   6 train 0.004469 val 0.004474 7.9s *
+2026-10-05 22:05:20,624 [paper_random_holdout_f0_z32] epoch   7 train 0.004441 val 0.004443 7.8s *
+2026-10-05 22:05:28,843 [paper_random_holdout_f0_z32] epoch   8 train 0.004420 val 0.004437 8.2s *
+2026-10-05 22:05:36,762 [paper_random_holdout_f0_z32] epoch   9 train 0.004399 val 0.004385 7.9s *
+2026-10-05 22:05:44,726 [paper_random_holdout_f0_z32] epoch  10 train 0.004376 val 0.004366 8.0s *
+2026-10-05 22:05:52,498 [paper_random_holdout_f0_z32] epoch  11 train 0.004358 val 0.004348 7.8s *
+2026-10-05 22:06:00,396 [paper_random_holdout_f0_z32] epoch  12 train 0.004340 val 0.004325 7.9s *
+2026-10-05 22:06:08,298 [paper_random_holdout_f0_z32] epoch  13 train 0.004324 val 0.004328 7.9s
+2026-10-05 22:06:16,308 [paper_random_holdout_f0_z32] epoch  14 train 0.004309 val 0.004307 8.0s *
+2026-10-05 22:06:24,132 [paper_random_holdout_f0_z32] epoch  15 train 0.004297 val 0.004284 7.8s *
+2026-10-05 22:06:32,283 [paper_random_holdout_f0_z32] epoch  16 train 0.004285 val 0.004280 8.2s *
+2026-10-05 22:06:40,054 [paper_random_holdout_f0_z32] epoch  17 train 0.004271 val 0.004260 7.8s *
+2026-10-05 22:06:48,122 [paper_random_holdout_f0_z32] epoch  18 train 0.004250 val 0.004232 8.1s *
+2026-10-05 22:06:56,215 [paper_random_holdout_f0_z32] epoch  19 train 0.004227 val 0.004246 8.1s
+2026-10-05 22:07:04,049 [paper_random_holdout_f0_z32] epoch  20 train 0.004217 val 0.004223 7.8s *
+2026-10-05 22:07:12,176 [paper_random_holdout_f0_z32] epoch  21 train 0.004211 val 0.004189 8.1s *
+2026-10-05 22:07:20,239 [paper_random_holdout_f0_z32] epoch  22 train 0.004205 val 0.004207 8.1s
+2026-10-05 22:07:28,262 [paper_random_holdout_f0_z32] epoch  23 train 0.004198 val 0.004220 8.0s
+2026-10-05 22:07:36,234 [paper_random_holdout_f0_z32] epoch  24 train 0.004194 val 0.004175 8.0s *
+2026-10-05 22:07:44,389 [paper_random_holdout_f0_z32] epoch  25 train 0.004191 val 0.004235 8.2s
+2026-10-05 22:07:52,596 [paper_random_holdout_f0_z32] epoch  26 train 0.004180 val 0.004178 8.2s
+2026-10-05 22:08:00,672 [paper_random_holdout_f0_z32] epoch  27 train 0.004178 val 0.004153 8.1s *
+2026-10-05 22:08:08,808 [paper_random_holdout_f0_z32] epoch  28 train 0.004178 val 0.004171 8.1s
+2026-10-05 22:08:16,842 [paper_random_holdout_f0_z32] epoch  29 train 0.004170 val 0.004153 8.0s *
+2026-10-05 22:08:24,997 [paper_random_holdout_f0_z32] epoch  30 train 0.004170 val 0.004189 8.2s
+2026-10-05 22:08:33,172 [paper_random_holdout_f0_z32] epoch  31 train 0.004164 val 0.004228 8.2s
+2026-10-05 22:08:41,147 [paper_random_holdout_f0_z32] epoch  32 train 0.004160 val 0.004170 8.0s
+2026-10-05 22:08:49,183 [paper_random_holdout_f0_z32] epoch  33 train 0.004157 val 0.004147 8.0s *
+2026-10-05 22:08:57,371 [paper_random_holdout_f0_z32] epoch  34 train 0.004155 val 0.004143 8.2s *
+2026-10-05 22:09:05,469 [paper_random_holdout_f0_z32] epoch  35 train 0.004154 val 0.004149 8.1s
+2026-10-05 22:09:13,876 [paper_random_holdout_f0_z32] epoch  36 train 0.004150 val 0.004150 8.4s
+2026-10-05 22:09:22,032 [paper_random_holdout_f0_z32] epoch  37 train 0.004146 val 0.004125 8.2s *
+2026-10-05 22:09:30,300 [paper_random_holdout_f0_z32] epoch  38 train 0.004156 val 0.004128 8.3s
+2026-10-05 22:09:38,388 [paper_random_holdout_f0_z32] epoch  39 train 0.004150 val 0.004153 8.1s
+2026-10-05 22:09:46,573 [paper_random_holdout_f0_z32] epoch  40 train 0.004142 val 0.004120 8.2s *
+2026-10-05 22:09:54,529 [paper_random_holdout_f0_z32] epoch  41 train 0.004142 val 0.004152 8.0s
+2026-10-05 22:10:02,485 [paper_random_holdout_f0_z32] epoch  42 train 0.004146 val 0.004139 8.0s
+2026-10-05 22:10:10,422 [paper_random_holdout_f0_z32] epoch  43 train 0.004136 val 0.004123 7.9s
+2026-10-05 22:10:18,236 [paper_random_holdout_f0_z32] epoch  44 train 0.004130 val 0.004130 7.8s
+2026-10-05 22:10:26,277 [paper_random_holdout_f0_z32] epoch  45 train 0.004131 val 0.004105 8.0s *
+2026-10-05 22:10:32,664 [paper_random_holdout_f0_z32] epoch  46 train 0.004136 val 0.004125 6.4s
+2026-10-05 22:10:39,066 [paper_random_holdout_f0_z32] epoch  47 train 0.004139 val 0.004149 6.4s
+2026-10-05 22:10:45,437 [paper_random_holdout_f0_z32] epoch  48 train 0.004125 val 0.004120 6.4s
+2026-10-05 22:10:51,802 [paper_random_holdout_f0_z32] epoch  49 train 0.004122 val 0.004139 6.4s
+2026-10-05 22:10:58,168 [paper_random_holdout_f0_z32] epoch  50 train 0.004127 val 0.004135 6.4s
+2026-10-05 22:11:04,551 [paper_random_holdout_f0_z32] epoch  51 train 0.004138 val 0.004139 6.4s
+2026-10-05 22:11:10,950 [paper_random_holdout_f0_z32] epoch  52 train 0.004118 val 0.004108 6.4s
+2026-10-05 22:11:17,333 [paper_random_holdout_f0_z32] epoch  53 train 0.004121 val 0.004114 6.4s
+2026-10-05 22:11:23,714 [paper_random_holdout_f0_z32] epoch  54 train 0.004121 val 0.004106 6.4s
+2026-10-05 22:11:30,083 [paper_random_holdout_f0_z32] epoch  55 train 0.004125 val 0.004144 6.4s
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: divide by zero encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: overflow encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: invalid value encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: divide by zero encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: overflow encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: invalid value encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+2026-10-05 22:11:32,820 [paper_random_holdout_f0_z32] done: best epoch 45/55, test MSE 0.004100 (baseline 0.015271), probe AUC 0.611, 7.1 min
+2026-10-05 22:11:32,893 [paper_random_holdout_f0_z64] device=cpu train=1,670,122 val=185,570 test=463,924
+2026-10-05 22:11:39,301 [paper_random_holdout_f0_z64] epoch   1 train 0.005385 val 0.004048 6.4s *
+2026-10-05 22:11:45,705 [paper_random_holdout_f0_z64] epoch   2 train 0.003617 val 0.003327 6.4s *
+2026-10-05 22:11:52,086 [paper_random_holdout_f0_z64] epoch   3 train 0.003135 val 0.002993 6.4s *
+2026-10-05 22:11:58,486 [paper_random_holdout_f0_z64] epoch   4 train 0.002898 val 0.002826 6.4s *
+2026-10-05 22:12:04,864 [paper_random_holdout_f0_z64] epoch   5 train 0.002730 val 0.002695 6.4s *
+2026-10-05 22:12:11,254 [paper_random_holdout_f0_z64] epoch   6 train 0.002645 val 0.002618 6.4s *
+2026-10-05 22:12:17,661 [paper_random_holdout_f0_z64] epoch   7 train 0.002580 val 0.002505 6.4s *
+2026-10-05 22:12:24,062 [paper_random_holdout_f0_z64] epoch   8 train 0.002479 val 0.002475 6.4s *
+2026-10-05 22:12:30,426 [paper_random_holdout_f0_z64] epoch   9 train 0.002463 val 0.002477 6.4s
+2026-10-05 22:12:36,802 [paper_random_holdout_f0_z64] epoch  10 train 0.002438 val 0.002390 6.4s *
+2026-10-05 22:12:43,176 [paper_random_holdout_f0_z64] epoch  11 train 0.002347 val 0.002324 6.4s *
+2026-10-05 22:12:49,544 [paper_random_holdout_f0_z64] epoch  12 train 0.002320 val 0.002309 6.4s *
+2026-10-05 22:12:55,920 [paper_random_holdout_f0_z64] epoch  13 train 0.002314 val 0.002315 6.4s
+2026-10-05 22:13:02,301 [paper_random_holdout_f0_z64] epoch  14 train 0.002312 val 0.002317 6.4s
+2026-10-05 22:13:08,688 [paper_random_holdout_f0_z64] epoch  15 train 0.002310 val 0.002303 6.4s *
+2026-10-05 22:13:15,123 [paper_random_holdout_f0_z64] epoch  16 train 0.002308 val 0.002314 6.4s
+2026-10-05 22:13:21,556 [paper_random_holdout_f0_z64] epoch  17 train 0.002307 val 0.002313 6.4s
+2026-10-05 22:13:27,987 [paper_random_holdout_f0_z64] epoch  18 train 0.002305 val 0.002312 6.4s
+2026-10-05 22:13:34,406 [paper_random_holdout_f0_z64] epoch  19 train 0.002302 val 0.002313 6.4s
+2026-10-05 22:13:40,825 [paper_random_holdout_f0_z64] epoch  20 train 0.002298 val 0.002299 6.4s *
+2026-10-05 22:13:47,240 [paper_random_holdout_f0_z64] epoch  21 train 0.002294 val 0.002288 6.4s *
+2026-10-05 22:13:53,662 [paper_random_holdout_f0_z64] epoch  22 train 0.002292 val 0.002287 6.4s *
+2026-10-05 22:14:00,048 [paper_random_holdout_f0_z64] epoch  23 train 0.002290 val 0.002287 6.4s
+2026-10-05 22:14:06,440 [paper_random_holdout_f0_z64] epoch  24 train 0.002287 val 0.002283 6.4s *
+2026-10-05 22:14:12,833 [paper_random_holdout_f0_z64] epoch  25 train 0.002285 val 0.002278 6.4s *
+2026-10-05 22:14:19,221 [paper_random_holdout_f0_z64] epoch  26 train 0.002284 val 0.002283 6.4s
+2026-10-05 22:14:25,612 [paper_random_holdout_f0_z64] epoch  27 train 0.002282 val 0.002286 6.4s
+2026-10-05 22:14:31,963 [paper_random_holdout_f0_z64] epoch  28 train 0.002281 val 0.002275 6.4s *
+2026-10-05 22:14:38,384 [paper_random_holdout_f0_z64] epoch  29 train 0.002279 val 0.002272 6.4s *
+2026-10-05 22:14:44,798 [paper_random_holdout_f0_z64] epoch  30 train 0.002277 val 0.002275 6.4s
+2026-10-05 22:14:51,207 [paper_random_holdout_f0_z64] epoch  31 train 0.002276 val 0.002288 6.4s
+2026-10-05 22:14:57,628 [paper_random_holdout_f0_z64] epoch  32 train 0.002273 val 0.002263 6.4s *
+2026-10-05 22:15:04,016 [paper_random_holdout_f0_z64] epoch  33 train 0.002271 val 0.002274 6.4s
+2026-10-05 22:15:10,392 [paper_random_holdout_f0_z64] epoch  34 train 0.002268 val 0.002263 6.4s *
+2026-10-05 22:15:16,777 [paper_random_holdout_f0_z64] epoch  35 train 0.002267 val 0.002261 6.4s *
+2026-10-05 22:15:23,203 [paper_random_holdout_f0_z64] epoch  36 train 0.002265 val 0.002268 6.4s
+2026-10-05 22:15:29,622 [paper_random_holdout_f0_z64] epoch  37 train 0.002263 val 0.002261 6.4s
+2026-10-05 22:15:36,034 [paper_random_holdout_f0_z64] epoch  38 train 0.002262 val 0.002267 6.4s
+2026-10-05 22:15:42,465 [paper_random_holdout_f0_z64] epoch  39 train 0.002260 val 0.002256 6.4s *
+2026-10-05 22:15:48,861 [paper_random_holdout_f0_z64] epoch  40 train 0.002259 val 0.002262 6.4s
+2026-10-05 22:15:55,253 [paper_random_holdout_f0_z64] epoch  41 train 0.002256 val 0.002266 6.4s
+2026-10-05 22:16:01,640 [paper_random_holdout_f0_z64] epoch  42 train 0.002254 val 0.002268 6.4s
+2026-10-05 22:16:08,037 [paper_random_holdout_f0_z64] epoch  43 train 0.002251 val 0.002253 6.4s *
+2026-10-05 22:16:14,426 [paper_random_holdout_f0_z64] epoch  44 train 0.002249 val 0.002246 6.4s *
+2026-10-05 22:16:20,835 [paper_random_holdout_f0_z64] epoch  45 train 0.002247 val 0.002244 6.4s *
+2026-10-05 22:16:27,220 [paper_random_holdout_f0_z64] epoch  46 train 0.002245 val 0.002256 6.4s
+2026-10-05 22:16:33,604 [paper_random_holdout_f0_z64] epoch  47 train 0.002243 val 0.002251 6.4s
+2026-10-05 22:16:39,986 [paper_random_holdout_f0_z64] epoch  48 train 0.002242 val 0.002255 6.4s
+2026-10-05 22:16:46,364 [paper_random_holdout_f0_z64] epoch  49 train 0.002240 val 0.002232 6.4s *
+2026-10-05 22:16:52,749 [paper_random_holdout_f0_z64] epoch  50 train 0.002237 val 0.002228 6.4s *
+2026-10-05 22:16:59,122 [paper_random_holdout_f0_z64] epoch  51 train 0.002232 val 0.002221 6.4s *
+2026-10-05 22:17:05,548 [paper_random_holdout_f0_z64] epoch  52 train 0.002228 val 0.002225 6.4s
+2026-10-05 22:17:11,964 [paper_random_holdout_f0_z64] epoch  53 train 0.002226 val 0.002231 6.4s
+2026-10-05 22:17:18,384 [paper_random_holdout_f0_z64] epoch  54 train 0.002225 val 0.002229 6.4s
+2026-10-05 22:17:24,811 [paper_random_holdout_f0_z64] epoch  55 train 0.002223 val 0.002207 6.4s *
+2026-10-05 22:17:31,241 [paper_random_holdout_f0_z64] epoch  56 train 0.002221 val 0.002219 6.4s
+2026-10-05 22:17:37,684 [paper_random_holdout_f0_z64] epoch  57 train 0.002220 val 0.002217 6.4s
+2026-10-05 22:17:44,142 [paper_random_holdout_f0_z64] epoch  58 train 0.002218 val 0.002217 6.5s
+2026-10-05 22:17:50,604 [paper_random_holdout_f0_z64] epoch  59 train 0.002217 val 0.002229 6.5s
+2026-10-05 22:17:57,056 [paper_random_holdout_f0_z64] epoch  60 train 0.002215 val 0.002224 6.5s
+2026-10-05 22:18:03,507 [paper_random_holdout_f0_z64] epoch  61 train 0.002214 val 0.002207 6.5s *
+2026-10-05 22:18:09,930 [paper_random_holdout_f0_z64] epoch  62 train 0.002213 val 0.002212 6.4s
+2026-10-05 22:18:16,339 [paper_random_holdout_f0_z64] epoch  63 train 0.002212 val 0.002224 6.4s
+2026-10-05 22:18:22,754 [paper_random_holdout_f0_z64] epoch  64 train 0.002211 val 0.002219 6.4s
+2026-10-05 22:18:29,171 [paper_random_holdout_f0_z64] epoch  65 train 0.002209 val 0.002202 6.4s *
+2026-10-05 22:18:35,599 [paper_random_holdout_f0_z64] epoch  66 train 0.002206 val 0.002210 6.4s
+2026-10-05 22:18:42,021 [paper_random_holdout_f0_z64] epoch  67 train 0.002203 val 0.002203 6.4s
+2026-10-05 22:18:48,432 [paper_random_holdout_f0_z64] epoch  68 train 0.002201 val 0.002203 6.4s
+2026-10-05 22:18:54,852 [paper_random_holdout_f0_z64] epoch  69 train 0.002199 val 0.002211 6.4s
+2026-10-05 22:19:01,284 [paper_random_holdout_f0_z64] epoch  70 train 0.002196 val 0.002218 6.4s
+2026-10-05 22:19:07,742 [paper_random_holdout_f0_z64] epoch  71 train 0.002194 val 0.002187 6.5s *
+2026-10-05 22:19:14,145 [paper_random_holdout_f0_z64] epoch  72 train 0.002193 val 0.002226 6.4s
+2026-10-05 22:19:20,545 [paper_random_holdout_f0_z64] epoch  73 train 0.002191 val 0.002186 6.4s *
+2026-10-05 22:19:26,962 [paper_random_holdout_f0_z64] epoch  74 train 0.002191 val 0.002188 6.4s
+2026-10-05 22:19:33,392 [paper_random_holdout_f0_z64] epoch  75 train 0.002190 val 0.002197 6.4s
+2026-10-05 22:19:39,813 [paper_random_holdout_f0_z64] epoch  76 train 0.002189 val 0.002191 6.4s
+2026-10-05 22:19:46,233 [paper_random_holdout_f0_z64] epoch  77 train 0.002188 val 0.002192 6.4s
+2026-10-05 22:19:52,635 [paper_random_holdout_f0_z64] epoch  78 train 0.002188 val 0.002188 6.4s
+2026-10-05 22:19:59,032 [paper_random_holdout_f0_z64] epoch  79 train 0.002187 val 0.002189 6.4s
+2026-10-05 22:20:05,450 [paper_random_holdout_f0_z64] epoch  80 train 0.002186 val 0.002188 6.4s
+2026-10-05 22:20:11,866 [paper_random_holdout_f0_z64] epoch  81 train 0.002186 val 0.002196 6.4s
+2026-10-05 22:20:18,288 [paper_random_holdout_f0_z64] epoch  82 train 0.002184 val 0.002180 6.4s *
+2026-10-05 22:20:24,726 [paper_random_holdout_f0_z64] epoch  83 train 0.002183 val 0.002177 6.4s *
+2026-10-05 22:20:31,140 [paper_random_holdout_f0_z64] epoch  84 train 0.002182 val 0.002190 6.4s
+2026-10-05 22:20:37,555 [paper_random_holdout_f0_z64] epoch  85 train 0.002181 val 0.002175 6.4s *
+2026-10-05 22:20:43,967 [paper_random_holdout_f0_z64] epoch  86 train 0.002180 val 0.002172 6.4s *
+2026-10-05 22:20:50,456 [paper_random_holdout_f0_z64] epoch  87 train 0.002179 val 0.002176 6.5s
+2026-10-05 22:20:56,937 [paper_random_holdout_f0_z64] epoch  88 train 0.002178 val 0.002202 6.5s
+2026-10-05 22:21:03,445 [paper_random_holdout_f0_z64] epoch  89 train 0.002176 val 0.002176 6.5s
+2026-10-05 22:21:09,958 [paper_random_holdout_f0_z64] epoch  90 train 0.002175 val 0.002178 6.5s
+2026-10-05 22:21:16,460 [paper_random_holdout_f0_z64] epoch  91 train 0.002173 val 0.002192 6.5s
+2026-10-05 22:21:22,961 [paper_random_holdout_f0_z64] epoch  92 train 0.002172 val 0.002171 6.5s *
+2026-10-05 22:21:29,383 [paper_random_holdout_f0_z64] epoch  93 train 0.002172 val 0.002167 6.4s *
+2026-10-05 22:21:35,847 [paper_random_holdout_f0_z64] epoch  94 train 0.002171 val 0.002175 6.5s
+2026-10-05 22:21:42,288 [paper_random_holdout_f0_z64] epoch  95 train 0.002170 val 0.002168 6.4s
+2026-10-05 22:21:48,691 [paper_random_holdout_f0_z64] epoch  96 train 0.002169 val 0.002164 6.4s *
+2026-10-05 22:21:55,095 [paper_random_holdout_f0_z64] epoch  97 train 0.002169 val 0.002161 6.4s *
+2026-10-05 22:22:01,495 [paper_random_holdout_f0_z64] epoch  98 train 0.002168 val 0.002179 6.4s
+2026-10-05 22:22:07,886 [paper_random_holdout_f0_z64] epoch  99 train 0.002168 val 0.002163 6.4s
+2026-10-05 22:22:14,279 [paper_random_holdout_f0_z64] epoch 100 train 0.002167 val 0.002179 6.4s
+2026-10-05 22:22:20,674 [paper_random_holdout_f0_z64] epoch 101 train 0.002167 val 0.002154 6.4s *
+2026-10-05 22:22:27,127 [paper_random_holdout_f0_z64] epoch 102 train 0.002166 val 0.002161 6.5s
+2026-10-05 22:22:33,581 [paper_random_holdout_f0_z64] epoch 103 train 0.002166 val 0.002191 6.5s
+2026-10-05 22:22:40,052 [paper_random_holdout_f0_z64] epoch 104 train 0.002165 val 0.002160 6.5s
+2026-10-05 22:22:46,526 [paper_random_holdout_f0_z64] epoch 105 train 0.002164 val 0.002175 6.5s
+2026-10-05 22:22:52,988 [paper_random_holdout_f0_z64] epoch 106 train 0.002164 val 0.002163 6.5s
+2026-10-05 22:22:59,457 [paper_random_holdout_f0_z64] epoch 107 train 0.002164 val 0.002175 6.5s
+2026-10-05 22:23:05,937 [paper_random_holdout_f0_z64] epoch 108 train 0.002162 val 0.002176 6.5s
+2026-10-05 22:23:12,398 [paper_random_holdout_f0_z64] epoch 109 train 0.002162 val 0.002151 6.5s *
+2026-10-05 22:23:18,808 [paper_random_holdout_f0_z64] epoch 110 train 0.002161 val 0.002163 6.4s
+2026-10-05 22:23:25,224 [paper_random_holdout_f0_z64] epoch 111 train 0.002161 val 0.002151 6.4s *
+2026-10-05 22:23:31,671 [paper_random_holdout_f0_z64] epoch 112 train 0.002160 val 0.002154 6.4s
+2026-10-05 22:23:38,105 [paper_random_holdout_f0_z64] epoch 113 train 0.002160 val 0.002169 6.4s
+2026-10-05 22:23:44,535 [paper_random_holdout_f0_z64] epoch 114 train 0.002159 val 0.002167 6.4s
+2026-10-05 22:23:50,953 [paper_random_holdout_f0_z64] epoch 115 train 0.002158 val 0.002179 6.4s
+2026-10-05 22:23:57,365 [paper_random_holdout_f0_z64] epoch 116 train 0.002157 val 0.002166 6.4s
+2026-10-05 22:24:03,798 [paper_random_holdout_f0_z64] epoch 117 train 0.002156 val 0.002145 6.4s *
+2026-10-05 22:24:10,196 [paper_random_holdout_f0_z64] epoch 118 train 0.002155 val 0.002158 6.4s
+2026-10-05 22:24:16,604 [paper_random_holdout_f0_z64] epoch 119 train 0.002154 val 0.002169 6.4s
+2026-10-05 22:24:23,019 [paper_random_holdout_f0_z64] epoch 120 train 0.002154 val 0.002152 6.4s
+2026-10-05 22:24:29,427 [paper_random_holdout_f0_z64] epoch 121 train 0.002153 val 0.002148 6.4s
+2026-10-05 22:24:35,860 [paper_random_holdout_f0_z64] epoch 122 train 0.002153 val 0.002161 6.4s
+2026-10-05 22:24:42,389 [paper_random_holdout_f0_z64] epoch 123 train 0.002152 val 0.002159 6.5s
+2026-10-05 22:24:48,943 [paper_random_holdout_f0_z64] epoch 124 train 0.002151 val 0.002149 6.6s
+2026-10-05 22:24:55,417 [paper_random_holdout_f0_z64] epoch 125 train 0.002151 val 0.002148 6.5s
+2026-10-05 22:25:01,782 [paper_random_holdout_f0_z64] epoch 126 train 0.002150 val 0.002147 6.4s
+2026-10-05 22:25:08,168 [paper_random_holdout_f0_z64] epoch 127 train 0.002149 val 0.002145 6.4s *
+2026-10-05 22:25:14,529 [paper_random_holdout_f0_z64] epoch 128 train 0.002148 val 0.002148 6.4s
+2026-10-05 22:25:20,881 [paper_random_holdout_f0_z64] epoch 129 train 0.002148 val 0.002167 6.4s
+2026-10-05 22:25:27,231 [paper_random_holdout_f0_z64] epoch 130 train 0.002147 val 0.002140 6.4s *
+2026-10-05 22:25:33,575 [paper_random_holdout_f0_z64] epoch 131 train 0.002146 val 0.002148 6.3s
+2026-10-05 22:25:39,917 [paper_random_holdout_f0_z64] epoch 132 train 0.002145 val 0.002139 6.3s *
+2026-10-05 22:25:46,289 [paper_random_holdout_f0_z64] epoch 133 train 0.002144 val 0.002141 6.4s
+2026-10-05 22:25:52,669 [paper_random_holdout_f0_z64] epoch 134 train 0.002143 val 0.002138 6.4s *
+2026-10-05 22:25:59,022 [paper_random_holdout_f0_z64] epoch 135 train 0.002142 val 0.002138 6.4s *
+2026-10-05 22:26:05,386 [paper_random_holdout_f0_z64] epoch 136 train 0.002141 val 0.002151 6.4s
+2026-10-05 22:26:11,735 [paper_random_holdout_f0_z64] epoch 137 train 0.002140 val 0.002133 6.3s *
+2026-10-05 22:26:18,107 [paper_random_holdout_f0_z64] epoch 138 train 0.002139 val 0.002154 6.4s
+2026-10-05 22:26:24,496 [paper_random_holdout_f0_z64] epoch 139 train 0.002139 val 0.002135 6.4s
+2026-10-05 22:26:30,873 [paper_random_holdout_f0_z64] epoch 140 train 0.002138 val 0.002127 6.4s *
+2026-10-05 22:26:37,233 [paper_random_holdout_f0_z64] epoch 141 train 0.002138 val 0.002129 6.4s
+2026-10-05 22:26:43,578 [paper_random_holdout_f0_z64] epoch 142 train 0.002137 val 0.002127 6.3s
+2026-10-05 22:26:49,927 [paper_random_holdout_f0_z64] epoch 143 train 0.002137 val 0.002149 6.3s
+2026-10-05 22:26:56,285 [paper_random_holdout_f0_z64] epoch 144 train 0.002136 val 0.002134 6.4s
+2026-10-05 22:27:02,640 [paper_random_holdout_f0_z64] epoch 145 train 0.002136 val 0.002130 6.4s
+2026-10-05 22:27:09,021 [paper_random_holdout_f0_z64] epoch 146 train 0.002136 val 0.002143 6.4s
+2026-10-05 22:27:15,387 [paper_random_holdout_f0_z64] epoch 147 train 0.002135 val 0.002139 6.4s
+2026-10-05 22:27:21,752 [paper_random_holdout_f0_z64] epoch 148 train 0.002134 val 0.002136 6.4s
+2026-10-05 22:27:28,118 [paper_random_holdout_f0_z64] epoch 149 train 0.002134 val 0.002131 6.4s
+2026-10-05 22:27:34,488 [paper_random_holdout_f0_z64] epoch 150 train 0.002134 val 0.002151 6.4s
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: divide by zero encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: overflow encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: invalid value encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: divide by zero encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: overflow encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: invalid value encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+2026-10-05 22:27:38,150 [paper_random_holdout_f0_z64] done: best epoch 140/150, test MSE 0.002125 (baseline 0.015271), probe AUC 0.651, 16.0 min
+2026-10-05 22:27:38,231 [paper_random_holdout_f0_z128] device=cpu train=1,670,122 val=185,570 test=463,924
+2026-10-05 22:27:46,331 [paper_random_holdout_f0_z128] epoch   1 train 0.005016 val 0.003532 8.1s *
+2026-10-05 22:27:54,720 [paper_random_holdout_f0_z128] epoch   2 train 0.003062 val 0.002734 8.4s *
+2026-10-05 22:28:04,343 [paper_random_holdout_f0_z128] epoch   3 train 0.002535 val 0.002359 9.6s *
+2026-10-05 22:28:12,621 [paper_random_holdout_f0_z128] epoch   4 train 0.002212 val 0.002103 8.3s *
+2026-10-05 22:28:20,861 [paper_random_holdout_f0_z128] epoch   5 train 0.002023 val 0.001959 8.2s *
+2026-10-05 22:28:29,168 [paper_random_holdout_f0_z128] epoch   6 train 0.001928 val 0.001878 8.3s *
+2026-10-05 22:28:37,546 [paper_random_holdout_f0_z128] epoch   7 train 0.001874 val 0.001846 8.4s *
+2026-10-05 22:28:45,262 [paper_random_holdout_f0_z128] epoch   8 train 0.001797 val 0.001750 7.7s *
+2026-10-05 22:28:53,525 [paper_random_holdout_f0_z128] epoch   9 train 0.001728 val 0.001713 8.3s *
+2026-10-05 22:29:03,237 [paper_random_holdout_f0_z128] epoch  10 train 0.001696 val 0.001678 9.7s *
+2026-10-05 22:29:11,642 [paper_random_holdout_f0_z128] epoch  11 train 0.001655 val 0.001609 8.4s *
+2026-10-05 22:29:19,892 [paper_random_holdout_f0_z128] epoch  12 train 0.001576 val 0.001550 8.2s *
+2026-10-05 22:29:28,140 [paper_random_holdout_f0_z128] epoch  13 train 0.001542 val 0.001538 8.2s *
+2026-10-05 22:29:36,500 [paper_random_holdout_f0_z128] epoch  14 train 0.001535 val 0.001533 8.4s *
+2026-10-05 22:29:46,160 [paper_random_holdout_f0_z128] epoch  15 train 0.001508 val 0.001487 9.7s *
+2026-10-05 22:29:53,259 [paper_random_holdout_f0_z128] epoch  16 train 0.001488 val 0.001483 7.1s *
+2026-10-05 22:30:01,516 [paper_random_holdout_f0_z128] epoch  17 train 0.001458 val 0.001431 8.3s *
+2026-10-05 22:30:11,229 [paper_random_holdout_f0_z128] epoch  18 train 0.001434 val 0.001435 9.7s
+2026-10-05 22:30:20,952 [paper_random_holdout_f0_z128] epoch  19 train 0.001430 val 0.001438 9.7s
+2026-10-05 22:30:30,579 [paper_random_holdout_f0_z128] epoch  20 train 0.001427 val 0.001432 9.6s
+2026-10-05 22:30:40,232 [paper_random_holdout_f0_z128] epoch  21 train 0.001426 val 0.001417 9.7s *
+2026-10-05 22:30:48,446 [paper_random_holdout_f0_z128] epoch  22 train 0.001424 val 0.001419 8.2s
+2026-10-05 22:30:56,648 [paper_random_holdout_f0_z128] epoch  23 train 0.001423 val 0.001432 8.2s
+2026-10-05 22:31:04,819 [paper_random_holdout_f0_z128] epoch  24 train 0.001421 val 0.001425 8.2s
+2026-10-05 22:31:12,749 [paper_random_holdout_f0_z128] epoch  25 train 0.001420 val 0.001427 7.9s
+2026-10-05 22:31:20,974 [paper_random_holdout_f0_z128] epoch  26 train 0.001420 val 0.001413 8.2s *
+2026-10-05 22:31:29,235 [paper_random_holdout_f0_z128] epoch  27 train 0.001419 val 0.001417 8.3s
+2026-10-05 22:31:37,474 [paper_random_holdout_f0_z128] epoch  28 train 0.001418 val 0.001413 8.2s
+2026-10-05 22:31:45,720 [paper_random_holdout_f0_z128] epoch  29 train 0.001418 val 0.001417 8.2s
+2026-10-05 22:31:53,956 [paper_random_holdout_f0_z128] epoch  30 train 0.001417 val 0.001415 8.2s
+2026-10-05 22:32:02,188 [paper_random_holdout_f0_z128] epoch  31 train 0.001417 val 0.001417 8.2s
+2026-10-05 22:32:10,482 [paper_random_holdout_f0_z128] epoch  32 train 0.001416 val 0.001417 8.3s
+2026-10-05 22:32:18,728 [paper_random_holdout_f0_z128] epoch  33 train 0.001416 val 0.001415 8.2s
+2026-10-05 22:32:26,987 [paper_random_holdout_f0_z128] epoch  34 train 0.001415 val 0.001413 8.3s *
+2026-10-05 22:32:35,246 [paper_random_holdout_f0_z128] epoch  35 train 0.001415 val 0.001419 8.3s
+2026-10-05 22:32:43,513 [paper_random_holdout_f0_z128] epoch  36 train 0.001415 val 0.001420 8.3s
+2026-10-05 22:32:51,760 [paper_random_holdout_f0_z128] epoch  37 train 0.001412 val 0.001418 8.2s
+2026-10-05 22:33:00,037 [paper_random_holdout_f0_z128] epoch  38 train 0.001409 val 0.001417 8.3s
+2026-10-05 22:33:08,291 [paper_random_holdout_f0_z128] epoch  39 train 0.001409 val 0.001398 8.3s *
+2026-10-05 22:33:16,640 [paper_random_holdout_f0_z128] epoch  40 train 0.001408 val 0.001414 8.3s
+2026-10-05 22:33:24,967 [paper_random_holdout_f0_z128] epoch  41 train 0.001407 val 0.001398 8.3s
+2026-10-05 22:33:33,304 [paper_random_holdout_f0_z128] epoch  42 train 0.001405 val 0.001407 8.3s
+2026-10-05 22:33:41,681 [paper_random_holdout_f0_z128] epoch  43 train 0.001404 val 0.001395 8.4s *
+2026-10-05 22:33:49,909 [paper_random_holdout_f0_z128] epoch  44 train 0.001400 val 0.001396 8.2s
+2026-10-05 22:33:58,147 [paper_random_holdout_f0_z128] epoch  45 train 0.001398 val 0.001405 8.2s
+2026-10-05 22:34:06,403 [paper_random_holdout_f0_z128] epoch  46 train 0.001398 val 0.001400 8.3s
+2026-10-05 22:34:14,664 [paper_random_holdout_f0_z128] epoch  47 train 0.001398 val 0.001391 8.3s *
+2026-10-05 22:34:23,028 [paper_random_holdout_f0_z128] epoch  48 train 0.001397 val 0.001402 8.4s
+2026-10-05 22:34:31,366 [paper_random_holdout_f0_z128] epoch  49 train 0.001397 val 0.001386 8.3s *
+2026-10-05 22:34:39,630 [paper_random_holdout_f0_z128] epoch  50 train 0.001394 val 0.001400 8.3s
+2026-10-05 22:34:47,897 [paper_random_holdout_f0_z128] epoch  51 train 0.001393 val 0.001381 8.3s *
+2026-10-05 22:34:56,159 [paper_random_holdout_f0_z128] epoch  52 train 0.001393 val 0.001396 8.3s
+2026-10-05 22:35:04,428 [paper_random_holdout_f0_z128] epoch  53 train 0.001392 val 0.001379 8.3s *
+2026-10-05 22:35:12,654 [paper_random_holdout_f0_z128] epoch  54 train 0.001389 val 0.001388 8.2s
+2026-10-05 22:35:20,889 [paper_random_holdout_f0_z128] epoch  55 train 0.001386 val 0.001381 8.2s
+2026-10-05 22:35:29,157 [paper_random_holdout_f0_z128] epoch  56 train 0.001383 val 0.001400 8.3s
+2026-10-05 22:35:37,424 [paper_random_holdout_f0_z128] epoch  57 train 0.001379 val 0.001378 8.3s *
+2026-10-05 22:35:45,686 [paper_random_holdout_f0_z128] epoch  58 train 0.001377 val 0.001375 8.3s *
+2026-10-05 22:35:53,939 [paper_random_holdout_f0_z128] epoch  59 train 0.001376 val 0.001366 8.3s *
+2026-10-05 22:36:02,170 [paper_random_holdout_f0_z128] epoch  60 train 0.001375 val 0.001387 8.2s
+2026-10-05 22:36:10,435 [paper_random_holdout_f0_z128] epoch  61 train 0.001374 val 0.001368 8.3s
+2026-10-05 22:36:18,675 [paper_random_holdout_f0_z128] epoch  62 train 0.001372 val 0.001362 8.2s *
+2026-10-05 22:36:26,929 [paper_random_holdout_f0_z128] epoch  63 train 0.001370 val 0.001369 8.3s
+2026-10-05 22:36:35,186 [paper_random_holdout_f0_z128] epoch  64 train 0.001369 val 0.001370 8.3s
+2026-10-05 22:36:43,440 [paper_random_holdout_f0_z128] epoch  65 train 0.001366 val 0.001363 8.3s
+2026-10-05 22:36:51,687 [paper_random_holdout_f0_z128] epoch  66 train 0.001363 val 0.001357 8.2s *
+2026-10-05 22:36:59,915 [paper_random_holdout_f0_z128] epoch  67 train 0.001360 val 0.001369 8.2s
+2026-10-05 22:37:08,175 [paper_random_holdout_f0_z128] epoch  68 train 0.001358 val 0.001365 8.3s
+2026-10-05 22:37:16,300 [paper_random_holdout_f0_z128] epoch  69 train 0.001355 val 0.001349 8.1s *
+2026-10-05 22:37:24,335 [paper_random_holdout_f0_z128] epoch  70 train 0.001351 val 0.001344 8.0s *
+2026-10-05 22:37:32,707 [paper_random_holdout_f0_z128] epoch  71 train 0.001348 val 0.001348 8.4s
+2026-10-05 22:37:41,094 [paper_random_holdout_f0_z128] epoch  72 train 0.001346 val 0.001333 8.4s *
+2026-10-05 22:37:49,364 [paper_random_holdout_f0_z128] epoch  73 train 0.001344 val 0.001336 8.3s
+2026-10-05 22:37:57,633 [paper_random_holdout_f0_z128] epoch  74 train 0.001340 val 0.001345 8.3s
+2026-10-05 22:38:05,904 [paper_random_holdout_f0_z128] epoch  75 train 0.001337 val 0.001321 8.3s *
+2026-10-05 22:38:14,163 [paper_random_holdout_f0_z128] epoch  76 train 0.001335 val 0.001328 8.3s
+2026-10-05 22:38:22,400 [paper_random_holdout_f0_z128] epoch  77 train 0.001333 val 0.001328 8.2s
+2026-10-05 22:38:30,607 [paper_random_holdout_f0_z128] epoch  78 train 0.001332 val 0.001318 8.2s *
+2026-10-05 22:38:38,973 [paper_random_holdout_f0_z128] epoch  79 train 0.001331 val 0.001345 8.4s
+2026-10-05 22:38:47,337 [paper_random_holdout_f0_z128] epoch  80 train 0.001329 val 0.001328 8.4s
+2026-10-05 22:38:55,694 [paper_random_holdout_f0_z128] epoch  81 train 0.001328 val 0.001331 8.4s
+2026-10-05 22:39:04,083 [paper_random_holdout_f0_z128] epoch  82 train 0.001327 val 0.001320 8.4s
+2026-10-05 22:39:12,430 [paper_random_holdout_f0_z128] epoch  83 train 0.001326 val 0.001308 8.3s *
+2026-10-05 22:39:21,964 [paper_random_holdout_f0_z128] epoch  84 train 0.001325 val 0.001327 9.5s
+2026-10-05 22:39:31,578 [paper_random_holdout_f0_z128] epoch  85 train 0.001325 val 0.001334 9.6s
+2026-10-05 22:39:41,153 [paper_random_holdout_f0_z128] epoch  86 train 0.001323 val 0.001322 9.6s
+2026-10-05 22:39:50,804 [paper_random_holdout_f0_z128] epoch  87 train 0.001321 val 0.001319 9.7s
+2026-10-05 22:40:00,373 [paper_random_holdout_f0_z128] epoch  88 train 0.001319 val 0.001355 9.6s
+2026-10-05 22:40:09,990 [paper_random_holdout_f0_z128] epoch  89 train 0.001318 val 0.001322 9.6s
+2026-10-05 22:40:19,579 [paper_random_holdout_f0_z128] epoch  90 train 0.001317 val 0.001318 9.6s
+2026-10-05 22:40:29,091 [paper_random_holdout_f0_z128] epoch  91 train 0.001315 val 0.001320 9.5s
+2026-10-05 22:40:38,697 [paper_random_holdout_f0_z128] epoch  92 train 0.001313 val 0.001308 9.6s
+2026-10-05 22:40:48,305 [paper_random_holdout_f0_z128] epoch  93 train 0.001312 val 0.001315 9.6s
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: divide by zero encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: overflow encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: invalid value encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: divide by zero encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: overflow encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: invalid value encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+2026-10-05 22:40:58,031 [paper_random_holdout_f0_z128] done: best epoch 83/93, test MSE 0.001308 (baseline 0.015271), probe AUC 0.669, 13.2 min
+2026-10-05 22:40:58,037 [paper_random_kfold_f0_z64] reused paper_random_holdout_f0_z64
+2026-10-05 22:40:58,116 [paper_random_kfold_f1_z64] device=cpu train=1,670,122 val=185,570 test=463,924
+2026-10-05 22:41:04,692 [paper_random_kfold_f1_z64] epoch   1 train 0.005539 val 0.004175 6.6s *
+2026-10-05 22:41:11,303 [paper_random_kfold_f1_z64] epoch   2 train 0.003766 val 0.003458 6.6s *
+2026-10-05 22:41:17,905 [paper_random_kfold_f1_z64] epoch   3 train 0.003281 val 0.003133 6.6s *
+2026-10-05 22:41:24,514 [paper_random_kfold_f1_z64] epoch   4 train 0.003056 val 0.002964 6.6s *
+2026-10-05 22:41:31,113 [paper_random_kfold_f1_z64] epoch   5 train 0.002919 val 0.002853 6.6s *
+2026-10-05 22:41:37,720 [paper_random_kfold_f1_z64] epoch   6 train 0.002823 val 0.002810 6.6s *
+2026-10-05 22:41:44,286 [paper_random_kfold_f1_z64] epoch   7 train 0.002798 val 0.002786 6.6s *
+2026-10-05 22:41:50,857 [paper_random_kfold_f1_z64] epoch   8 train 0.002790 val 0.002796 6.6s
+2026-10-05 22:41:57,414 [paper_random_kfold_f1_z64] epoch   9 train 0.002784 val 0.002766 6.6s *
+2026-10-05 22:42:04,021 [paper_random_kfold_f1_z64] epoch  10 train 0.002778 val 0.002775 6.6s
+2026-10-05 22:42:10,645 [paper_random_kfold_f1_z64] epoch  11 train 0.002775 val 0.002769 6.6s
+2026-10-05 22:42:17,252 [paper_random_kfold_f1_z64] epoch  12 train 0.002772 val 0.002767 6.6s
+2026-10-05 22:42:23,869 [paper_random_kfold_f1_z64] epoch  13 train 0.002769 val 0.002755 6.6s *
+2026-10-05 22:42:30,479 [paper_random_kfold_f1_z64] epoch  14 train 0.002766 val 0.002767 6.6s
+2026-10-05 22:42:37,091 [paper_random_kfold_f1_z64] epoch  15 train 0.002763 val 0.002764 6.6s
+2026-10-05 22:42:43,719 [paper_random_kfold_f1_z64] epoch  16 train 0.002761 val 0.002741 6.6s *
+2026-10-05 22:42:50,297 [paper_random_kfold_f1_z64] epoch  17 train 0.002758 val 0.002746 6.6s
+2026-10-05 22:42:56,880 [paper_random_kfold_f1_z64] epoch  18 train 0.002754 val 0.002750 6.6s
+2026-10-05 22:43:03,463 [paper_random_kfold_f1_z64] epoch  19 train 0.002750 val 0.002740 6.6s *
+2026-10-05 22:43:10,093 [paper_random_kfold_f1_z64] epoch  20 train 0.002746 val 0.002740 6.6s *
+2026-10-05 22:43:16,658 [paper_random_kfold_f1_z64] epoch  21 train 0.002742 val 0.002733 6.6s *
+2026-10-05 22:43:23,261 [paper_random_kfold_f1_z64] epoch  22 train 0.002738 val 0.002731 6.6s *
+2026-10-05 22:43:29,829 [paper_random_kfold_f1_z64] epoch  23 train 0.002735 val 0.002744 6.6s
+2026-10-05 22:43:36,397 [paper_random_kfold_f1_z64] epoch  24 train 0.002732 val 0.002711 6.6s *
+2026-10-05 22:43:43,002 [paper_random_kfold_f1_z64] epoch  25 train 0.002728 val 0.002717 6.6s
+2026-10-05 22:43:49,611 [paper_random_kfold_f1_z64] epoch  26 train 0.002725 val 0.002721 6.6s
+2026-10-05 22:43:56,224 [paper_random_kfold_f1_z64] epoch  27 train 0.002720 val 0.002710 6.6s *
+2026-10-05 22:44:02,813 [paper_random_kfold_f1_z64] epoch  28 train 0.002713 val 0.002698 6.6s *
+2026-10-05 22:44:09,393 [paper_random_kfold_f1_z64] epoch  29 train 0.002710 val 0.002703 6.6s
+2026-10-05 22:44:15,980 [paper_random_kfold_f1_z64] epoch  30 train 0.002708 val 0.002699 6.6s
+2026-10-05 22:44:22,559 [paper_random_kfold_f1_z64] epoch  31 train 0.002704 val 0.002702 6.6s
+2026-10-05 22:44:29,119 [paper_random_kfold_f1_z64] epoch  32 train 0.002700 val 0.002692 6.6s *
+2026-10-05 22:44:35,726 [paper_random_kfold_f1_z64] epoch  33 train 0.002697 val 0.002688 6.6s *
+2026-10-05 22:44:42,291 [paper_random_kfold_f1_z64] epoch  34 train 0.002694 val 0.002683 6.6s *
+2026-10-05 22:44:48,927 [paper_random_kfold_f1_z64] epoch  35 train 0.002691 val 0.002683 6.6s
+2026-10-05 22:44:55,559 [paper_random_kfold_f1_z64] epoch  36 train 0.002689 val 0.002682 6.6s *
+2026-10-05 22:45:02,175 [paper_random_kfold_f1_z64] epoch  37 train 0.002687 val 0.002681 6.6s *
+2026-10-05 22:45:08,827 [paper_random_kfold_f1_z64] epoch  38 train 0.002684 val 0.002678 6.7s *
+2026-10-05 22:45:15,478 [paper_random_kfold_f1_z64] epoch  39 train 0.002681 val 0.002669 6.7s *
+2026-10-05 22:45:22,079 [paper_random_kfold_f1_z64] epoch  40 train 0.002678 val 0.002681 6.6s
+2026-10-05 22:45:28,663 [paper_random_kfold_f1_z64] epoch  41 train 0.002675 val 0.002672 6.6s
+2026-10-05 22:45:35,246 [paper_random_kfold_f1_z64] epoch  42 train 0.002672 val 0.002660 6.6s *
+2026-10-05 22:45:41,837 [paper_random_kfold_f1_z64] epoch  43 train 0.002670 val 0.002660 6.6s
+2026-10-05 22:45:48,446 [paper_random_kfold_f1_z64] epoch  44 train 0.002668 val 0.002662 6.6s
+2026-10-05 22:45:55,038 [paper_random_kfold_f1_z64] epoch  45 train 0.002666 val 0.002654 6.6s *
+2026-10-05 22:46:01,676 [paper_random_kfold_f1_z64] epoch  46 train 0.002665 val 0.002662 6.6s
+2026-10-05 22:46:08,318 [paper_random_kfold_f1_z64] epoch  47 train 0.002663 val 0.002659 6.6s
+2026-10-05 22:46:14,957 [paper_random_kfold_f1_z64] epoch  48 train 0.002661 val 0.002649 6.6s *
+2026-10-05 22:46:21,554 [paper_random_kfold_f1_z64] epoch  49 train 0.002659 val 0.002659 6.6s
+2026-10-05 22:46:28,155 [paper_random_kfold_f1_z64] epoch  50 train 0.002657 val 0.002655 6.6s
+2026-10-05 22:46:34,773 [paper_random_kfold_f1_z64] epoch  51 train 0.002656 val 0.002648 6.6s *
+2026-10-05 22:46:41,392 [paper_random_kfold_f1_z64] epoch  52 train 0.002654 val 0.002638 6.6s *
+2026-10-05 22:46:48,009 [paper_random_kfold_f1_z64] epoch  53 train 0.002652 val 0.002641 6.6s
+2026-10-05 22:46:54,637 [paper_random_kfold_f1_z64] epoch  54 train 0.002650 val 0.002658 6.6s
+2026-10-05 22:47:01,248 [paper_random_kfold_f1_z64] epoch  55 train 0.002649 val 0.002645 6.6s
+2026-10-05 22:47:07,854 [paper_random_kfold_f1_z64] epoch  56 train 0.002647 val 0.002647 6.6s
+2026-10-05 22:47:14,441 [paper_random_kfold_f1_z64] epoch  57 train 0.002646 val 0.002642 6.6s
+2026-10-05 22:47:21,017 [paper_random_kfold_f1_z64] epoch  58 train 0.002645 val 0.002647 6.6s
+2026-10-05 22:47:27,583 [paper_random_kfold_f1_z64] epoch  59 train 0.002643 val 0.002640 6.6s
+2026-10-05 22:47:34,174 [paper_random_kfold_f1_z64] epoch  60 train 0.002642 val 0.002631 6.6s *
+2026-10-05 22:47:40,773 [paper_random_kfold_f1_z64] epoch  61 train 0.002641 val 0.002645 6.6s
+2026-10-05 22:47:47,383 [paper_random_kfold_f1_z64] epoch  62 train 0.002640 val 0.002629 6.6s *
+2026-10-05 22:47:54,037 [paper_random_kfold_f1_z64] epoch  63 train 0.002638 val 0.002633 6.7s
+2026-10-05 22:48:00,696 [paper_random_kfold_f1_z64] epoch  64 train 0.002637 val 0.002630 6.7s
+2026-10-05 22:48:07,344 [paper_random_kfold_f1_z64] epoch  65 train 0.002636 val 0.002621 6.6s *
+2026-10-05 22:48:13,971 [paper_random_kfold_f1_z64] epoch  66 train 0.002635 val 0.002641 6.6s
+2026-10-05 22:48:20,612 [paper_random_kfold_f1_z64] epoch  67 train 0.002634 val 0.002619 6.6s *
+2026-10-05 22:48:27,209 [paper_random_kfold_f1_z64] epoch  68 train 0.002633 val 0.002640 6.6s
+2026-10-05 22:48:33,800 [paper_random_kfold_f1_z64] epoch  69 train 0.002632 val 0.002634 6.6s
+2026-10-05 22:48:40,395 [paper_random_kfold_f1_z64] epoch  70 train 0.002632 val 0.002630 6.6s
+2026-10-05 22:48:46,989 [paper_random_kfold_f1_z64] epoch  71 train 0.002631 val 0.002638 6.6s
+2026-10-05 22:48:53,593 [paper_random_kfold_f1_z64] epoch  72 train 0.002630 val 0.002622 6.6s
+2026-10-05 22:49:00,197 [paper_random_kfold_f1_z64] epoch  73 train 0.002629 val 0.002618 6.6s *
+2026-10-05 22:49:06,800 [paper_random_kfold_f1_z64] epoch  74 train 0.002628 val 0.002621 6.6s
+2026-10-05 22:49:13,389 [paper_random_kfold_f1_z64] epoch  75 train 0.002627 val 0.002619 6.6s
+2026-10-05 22:49:20,006 [paper_random_kfold_f1_z64] epoch  76 train 0.002626 val 0.002616 6.6s *
+2026-10-05 22:49:26,660 [paper_random_kfold_f1_z64] epoch  77 train 0.002625 val 0.002611 6.7s *
+2026-10-05 22:49:33,253 [paper_random_kfold_f1_z64] epoch  78 train 0.002624 val 0.002613 6.6s
+2026-10-05 22:49:39,856 [paper_random_kfold_f1_z64] epoch  79 train 0.002623 val 0.002619 6.6s
+2026-10-05 22:49:46,449 [paper_random_kfold_f1_z64] epoch  80 train 0.002622 val 0.002620 6.6s
+2026-10-05 22:49:53,047 [paper_random_kfold_f1_z64] epoch  81 train 0.002621 val 0.002605 6.6s *
+2026-10-05 22:49:59,665 [paper_random_kfold_f1_z64] epoch  82 train 0.002621 val 0.002634 6.6s
+2026-10-05 22:50:06,273 [paper_random_kfold_f1_z64] epoch  83 train 0.002620 val 0.002626 6.6s
+2026-10-05 22:50:12,884 [paper_random_kfold_f1_z64] epoch  84 train 0.002619 val 0.002620 6.6s
+2026-10-05 22:50:19,489 [paper_random_kfold_f1_z64] epoch  85 train 0.002618 val 0.002620 6.6s
+2026-10-05 22:50:26,089 [paper_random_kfold_f1_z64] epoch  86 train 0.002618 val 0.002613 6.6s
+2026-10-05 22:50:32,692 [paper_random_kfold_f1_z64] epoch  87 train 0.002617 val 0.002607 6.6s
+2026-10-05 22:50:39,286 [paper_random_kfold_f1_z64] epoch  88 train 0.002617 val 0.002612 6.6s
+2026-10-05 22:50:45,894 [paper_random_kfold_f1_z64] epoch  89 train 0.002616 val 0.002611 6.6s
+2026-10-05 22:50:52,504 [paper_random_kfold_f1_z64] epoch  90 train 0.002615 val 0.002610 6.6s
+2026-10-05 22:50:59,115 [paper_random_kfold_f1_z64] epoch  91 train 0.002615 val 0.002608 6.6s
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: divide by zero encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: overflow encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: invalid value encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: divide by zero encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: overflow encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: invalid value encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+2026-10-05 22:51:02,703 [paper_random_kfold_f1_z64] done: best epoch 81/91, test MSE 0.002607 (baseline 0.015275), probe AUC 0.636, 10.0 min
+2026-10-05 22:51:02,775 [paper_random_kfold_f2_z64] device=cpu train=1,670,122 val=185,570 test=463,924
+2026-10-05 22:51:09,083 [paper_random_kfold_f2_z64] epoch   1 train 0.005257 val 0.003795 6.3s *
+2026-10-05 22:51:15,391 [paper_random_kfold_f2_z64] epoch   2 train 0.003442 val 0.003173 6.3s *
+2026-10-05 22:51:21,707 [paper_random_kfold_f2_z64] epoch   3 train 0.003012 val 0.002828 6.3s *
+2026-10-05 22:51:28,011 [paper_random_kfold_f2_z64] epoch   4 train 0.002750 val 0.002681 6.3s *
+2026-10-05 22:51:34,321 [paper_random_kfold_f2_z64] epoch   5 train 0.002599 val 0.002538 6.3s *
+2026-10-05 22:51:40,637 [paper_random_kfold_f2_z64] epoch   6 train 0.002524 val 0.002497 6.3s *
+2026-10-05 22:51:46,938 [paper_random_kfold_f2_z64] epoch   7 train 0.002451 val 0.002403 6.3s *
+2026-10-05 22:51:53,251 [paper_random_kfold_f2_z64] epoch   8 train 0.002390 val 0.002382 6.3s *
+2026-10-05 22:51:59,566 [paper_random_kfold_f2_z64] epoch   9 train 0.002367 val 0.002356 6.3s *
+2026-10-05 22:52:05,885 [paper_random_kfold_f2_z64] epoch  10 train 0.002329 val 0.002301 6.3s *
+2026-10-05 22:52:12,180 [paper_random_kfold_f2_z64] epoch  11 train 0.002288 val 0.002282 6.3s *
+2026-10-05 22:52:18,503 [paper_random_kfold_f2_z64] epoch  12 train 0.002267 val 0.002265 6.3s *
+2026-10-05 22:52:24,774 [paper_random_kfold_f2_z64] epoch  13 train 0.002261 val 0.002256 6.3s *
+2026-10-05 22:52:31,046 [paper_random_kfold_f2_z64] epoch  14 train 0.002256 val 0.002263 6.3s
+2026-10-05 22:52:37,316 [paper_random_kfold_f2_z64] epoch  15 train 0.002253 val 0.002255 6.3s *
+2026-10-05 22:52:43,583 [paper_random_kfold_f2_z64] epoch  16 train 0.002250 val 0.002246 6.3s *
+2026-10-05 22:52:49,862 [paper_random_kfold_f2_z64] epoch  17 train 0.002248 val 0.002252 6.3s
+2026-10-05 22:52:56,116 [paper_random_kfold_f2_z64] epoch  18 train 0.002246 val 0.002237 6.3s *
+2026-10-05 22:53:02,372 [paper_random_kfold_f2_z64] epoch  19 train 0.002244 val 0.002245 6.3s
+2026-10-05 22:53:08,640 [paper_random_kfold_f2_z64] epoch  20 train 0.002243 val 0.002245 6.3s
+2026-10-05 22:53:14,896 [paper_random_kfold_f2_z64] epoch  21 train 0.002242 val 0.002236 6.3s *
+2026-10-05 22:53:21,172 [paper_random_kfold_f2_z64] epoch  22 train 0.002240 val 0.002241 6.3s
+2026-10-05 22:53:27,431 [paper_random_kfold_f2_z64] epoch  23 train 0.002237 val 0.002226 6.3s *
+2026-10-05 22:53:33,687 [paper_random_kfold_f2_z64] epoch  24 train 0.002234 val 0.002228 6.3s
+2026-10-05 22:53:39,953 [paper_random_kfold_f2_z64] epoch  25 train 0.002232 val 0.002230 6.3s
+2026-10-05 22:53:46,210 [paper_random_kfold_f2_z64] epoch  26 train 0.002229 val 0.002235 6.3s
+2026-10-05 22:53:52,480 [paper_random_kfold_f2_z64] epoch  27 train 0.002226 val 0.002226 6.3s
+2026-10-05 22:53:58,906 [paper_random_kfold_f2_z64] epoch  28 train 0.002225 val 0.002219 6.4s *
+2026-10-05 22:54:05,499 [paper_random_kfold_f2_z64] epoch  29 train 0.002224 val 0.002215 6.6s *
+2026-10-05 22:54:11,808 [paper_random_kfold_f2_z64] epoch  30 train 0.002223 val 0.002233 6.3s
+2026-10-05 22:54:18,156 [paper_random_kfold_f2_z64] epoch  31 train 0.002222 val 0.002217 6.3s
+2026-10-05 22:54:24,435 [paper_random_kfold_f2_z64] epoch  32 train 0.002220 val 0.002222 6.3s
+2026-10-05 22:54:30,698 [paper_random_kfold_f2_z64] epoch  33 train 0.002219 val 0.002216 6.3s
+2026-10-05 22:54:36,946 [paper_random_kfold_f2_z64] epoch  34 train 0.002219 val 0.002209 6.2s *
+2026-10-05 22:54:43,208 [paper_random_kfold_f2_z64] epoch  35 train 0.002219 val 0.002221 6.3s
+2026-10-05 22:54:49,467 [paper_random_kfold_f2_z64] epoch  36 train 0.002218 val 0.002206 6.3s *
+2026-10-05 22:54:55,771 [paper_random_kfold_f2_z64] epoch  37 train 0.002217 val 0.002213 6.3s
+2026-10-05 22:55:02,075 [paper_random_kfold_f2_z64] epoch  38 train 0.002217 val 0.002217 6.3s
+2026-10-05 22:55:08,404 [paper_random_kfold_f2_z64] epoch  39 train 0.002216 val 0.002232 6.3s
+2026-10-05 22:55:14,731 [paper_random_kfold_f2_z64] epoch  40 train 0.002216 val 0.002241 6.3s
+2026-10-05 22:55:21,035 [paper_random_kfold_f2_z64] epoch  41 train 0.002215 val 0.002201 6.3s *
+2026-10-05 22:55:27,349 [paper_random_kfold_f2_z64] epoch  42 train 0.002214 val 0.002220 6.3s
+2026-10-05 22:55:33,649 [paper_random_kfold_f2_z64] epoch  43 train 0.002213 val 0.002216 6.3s
+2026-10-05 22:55:39,962 [paper_random_kfold_f2_z64] epoch  44 train 0.002211 val 0.002200 6.3s *
+2026-10-05 22:55:46,274 [paper_random_kfold_f2_z64] epoch  45 train 0.002208 val 0.002198 6.3s *
+2026-10-05 22:55:52,736 [paper_random_kfold_f2_z64] epoch  46 train 0.002204 val 0.002209 6.5s
+2026-10-05 22:55:59,210 [paper_random_kfold_f2_z64] epoch  47 train 0.002201 val 0.002198 6.5s *
+2026-10-05 22:56:05,675 [paper_random_kfold_f2_z64] epoch  48 train 0.002199 val 0.002195 6.5s *
+2026-10-05 22:56:12,007 [paper_random_kfold_f2_z64] epoch  49 train 0.002197 val 0.002197 6.3s
+2026-10-05 22:56:18,329 [paper_random_kfold_f2_z64] epoch  50 train 0.002196 val 0.002198 6.3s
+2026-10-05 22:56:24,756 [paper_random_kfold_f2_z64] epoch  51 train 0.002195 val 0.002187 6.4s *
+2026-10-05 22:56:31,032 [paper_random_kfold_f2_z64] epoch  52 train 0.002194 val 0.002201 6.3s
+2026-10-05 22:56:37,444 [paper_random_kfold_f2_z64] epoch  53 train 0.002193 val 0.002192 6.4s
+2026-10-05 22:56:45,095 [paper_random_kfold_f2_z64] epoch  54 train 0.002192 val 0.002202 7.7s
+2026-10-05 22:56:51,409 [paper_random_kfold_f2_z64] epoch  55 train 0.002191 val 0.002198 6.3s
+2026-10-05 22:56:57,764 [paper_random_kfold_f2_z64] epoch  56 train 0.002190 val 0.002184 6.4s *
+2026-10-05 22:57:04,114 [paper_random_kfold_f2_z64] epoch  57 train 0.002189 val 0.002210 6.3s
+2026-10-05 22:57:10,492 [paper_random_kfold_f2_z64] epoch  58 train 0.002188 val 0.002217 6.4s
+2026-10-05 22:57:16,842 [paper_random_kfold_f2_z64] epoch  59 train 0.002188 val 0.002176 6.3s *
+2026-10-05 22:57:23,562 [paper_random_kfold_f2_z64] epoch  60 train 0.002187 val 0.002186 6.7s
+2026-10-05 22:57:30,066 [paper_random_kfold_f2_z64] epoch  61 train 0.002185 val 0.002188 6.5s
+2026-10-05 22:57:36,385 [paper_random_kfold_f2_z64] epoch  62 train 0.002184 val 0.002195 6.3s
+2026-10-05 22:57:42,694 [paper_random_kfold_f2_z64] epoch  63 train 0.002182 val 0.002164 6.3s *
+2026-10-05 22:57:49,024 [paper_random_kfold_f2_z64] epoch  64 train 0.002182 val 0.002182 6.3s
+2026-10-05 22:57:55,368 [paper_random_kfold_f2_z64] epoch  65 train 0.002181 val 0.002179 6.3s
+2026-10-05 22:58:01,716 [paper_random_kfold_f2_z64] epoch  66 train 0.002180 val 0.002199 6.3s
+2026-10-05 22:58:08,052 [paper_random_kfold_f2_z64] epoch  67 train 0.002179 val 0.002184 6.3s
+2026-10-05 22:58:14,365 [paper_random_kfold_f2_z64] epoch  68 train 0.002177 val 0.002170 6.3s
+2026-10-05 22:58:20,706 [paper_random_kfold_f2_z64] epoch  69 train 0.002175 val 0.002180 6.3s
+2026-10-05 22:58:26,971 [paper_random_kfold_f2_z64] epoch  70 train 0.002174 val 0.002178 6.3s
+2026-10-05 22:58:33,237 [paper_random_kfold_f2_z64] epoch  71 train 0.002173 val 0.002183 6.3s
+2026-10-05 22:58:39,502 [paper_random_kfold_f2_z64] epoch  72 train 0.002172 val 0.002180 6.3s
+2026-10-05 22:58:45,773 [paper_random_kfold_f2_z64] epoch  73 train 0.002170 val 0.002188 6.3s
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: divide by zero encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: overflow encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: invalid value encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: divide by zero encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: overflow encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: invalid value encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+2026-10-05 22:58:49,367 [paper_random_kfold_f2_z64] done: best epoch 63/73, test MSE 0.002164 (baseline 0.015264), probe AUC 0.651, 7.7 min
+2026-10-05 22:58:49,446 [paper_random_kfold_f3_z64] device=cpu train=1,670,124 val=185,570 test=463,922
+2026-10-05 22:58:56,763 [paper_random_kfold_f3_z64] epoch   1 train 0.005525 val 0.004129 7.3s *
+2026-10-05 22:59:03,981 [paper_random_kfold_f3_z64] epoch   2 train 0.003700 val 0.003375 7.2s *
+2026-10-05 22:59:11,516 [paper_random_kfold_f3_z64] epoch   3 train 0.003239 val 0.003122 7.5s *
+2026-10-05 22:59:18,883 [paper_random_kfold_f3_z64] epoch   4 train 0.002963 val 0.002829 7.4s *
+2026-10-05 22:59:26,567 [paper_random_kfold_f3_z64] epoch   5 train 0.002797 val 0.002792 7.7s *
+2026-10-05 22:59:33,967 [paper_random_kfold_f3_z64] epoch   6 train 0.002739 val 0.002691 7.4s *
+2026-10-05 22:59:41,786 [paper_random_kfold_f3_z64] epoch   7 train 0.002644 val 0.002630 7.8s *
+2026-10-05 22:59:49,153 [paper_random_kfold_f3_z64] epoch   8 train 0.002612 val 0.002604 7.4s *
+2026-10-05 22:59:56,799 [paper_random_kfold_f3_z64] epoch   9 train 0.002588 val 0.002559 7.6s *
+2026-10-05 23:00:04,203 [paper_random_kfold_f3_z64] epoch  10 train 0.002538 val 0.002532 7.4s *
+2026-10-05 23:00:11,953 [paper_random_kfold_f3_z64] epoch  11 train 0.002526 val 0.002539 7.8s
+2026-10-05 23:00:19,692 [paper_random_kfold_f3_z64] epoch  12 train 0.002519 val 0.002526 7.7s *
+2026-10-05 23:00:26,984 [paper_random_kfold_f3_z64] epoch  13 train 0.002513 val 0.002535 7.3s
+2026-10-05 23:00:34,287 [paper_random_kfold_f3_z64] epoch  14 train 0.002508 val 0.002515 7.3s *
+2026-10-05 23:00:41,943 [paper_random_kfold_f3_z64] epoch  15 train 0.002504 val 0.002520 7.7s
+2026-10-05 23:00:49,548 [paper_random_kfold_f3_z64] epoch  16 train 0.002501 val 0.002517 7.6s
+2026-10-05 23:00:57,129 [paper_random_kfold_f3_z64] epoch  17 train 0.002499 val 0.002503 7.6s *
+2026-10-05 23:01:04,571 [paper_random_kfold_f3_z64] epoch  18 train 0.002498 val 0.002502 7.4s *
+2026-10-05 23:01:12,264 [paper_random_kfold_f3_z64] epoch  19 train 0.002496 val 0.002509 7.7s
+2026-10-05 23:01:19,921 [paper_random_kfold_f3_z64] epoch  20 train 0.002493 val 0.002498 7.7s *
+2026-10-05 23:01:27,556 [paper_random_kfold_f3_z64] epoch  21 train 0.002491 val 0.002491 7.6s *
+2026-10-05 23:01:35,206 [paper_random_kfold_f3_z64] epoch  22 train 0.002488 val 0.002501 7.6s
+2026-10-05 23:01:42,832 [paper_random_kfold_f3_z64] epoch  23 train 0.002486 val 0.002497 7.6s
+2026-10-05 23:01:50,513 [paper_random_kfold_f3_z64] epoch  24 train 0.002485 val 0.002493 7.7s
+2026-10-05 23:01:58,255 [paper_random_kfold_f3_z64] epoch  25 train 0.002484 val 0.002481 7.7s *
+2026-10-05 23:02:05,698 [paper_random_kfold_f3_z64] epoch  26 train 0.002482 val 0.002475 7.4s *
+2026-10-05 23:02:13,433 [paper_random_kfold_f3_z64] epoch  27 train 0.002481 val 0.002482 7.7s
+2026-10-05 23:02:21,096 [paper_random_kfold_f3_z64] epoch  28 train 0.002479 val 0.002478 7.7s
+2026-10-05 23:02:28,834 [paper_random_kfold_f3_z64] epoch  29 train 0.002477 val 0.002474 7.7s *
+2026-10-05 23:02:36,196 [paper_random_kfold_f3_z64] epoch  30 train 0.002475 val 0.002475 7.4s
+2026-10-05 23:02:43,565 [paper_random_kfold_f3_z64] epoch  31 train 0.002472 val 0.002476 7.4s
+2026-10-05 23:02:50,915 [paper_random_kfold_f3_z64] epoch  32 train 0.002470 val 0.002468 7.4s *
+2026-10-05 23:02:58,534 [paper_random_kfold_f3_z64] epoch  33 train 0.002468 val 0.002468 7.6s
+2026-10-05 23:03:06,197 [paper_random_kfold_f3_z64] epoch  34 train 0.002467 val 0.002466 7.7s *
+2026-10-05 23:03:13,868 [paper_random_kfold_f3_z64] epoch  35 train 0.002464 val 0.002487 7.7s
+2026-10-05 23:03:21,440 [paper_random_kfold_f3_z64] epoch  36 train 0.002462 val 0.002479 7.6s
+2026-10-05 23:03:28,956 [paper_random_kfold_f3_z64] epoch  37 train 0.002460 val 0.002464 7.5s *
+2026-10-05 23:03:36,211 [paper_random_kfold_f3_z64] epoch  38 train 0.002459 val 0.002474 7.3s
+2026-10-05 23:03:43,434 [paper_random_kfold_f3_z64] epoch  39 train 0.002458 val 0.002467 7.2s
+2026-10-05 23:03:50,640 [paper_random_kfold_f3_z64] epoch  40 train 0.002456 val 0.002469 7.2s
+2026-10-05 23:03:57,860 [paper_random_kfold_f3_z64] epoch  41 train 0.002455 val 0.002457 7.2s *
+2026-10-05 23:04:05,581 [paper_random_kfold_f3_z64] epoch  42 train 0.002452 val 0.002456 7.7s *
+2026-10-05 23:04:13,224 [paper_random_kfold_f3_z64] epoch  43 train 0.002449 val 0.002480 7.6s
+2026-10-05 23:04:20,926 [paper_random_kfold_f3_z64] epoch  44 train 0.002443 val 0.002444 7.7s *
+2026-10-05 23:04:28,470 [paper_random_kfold_f3_z64] epoch  45 train 0.002438 val 0.002435 7.5s *
+2026-10-05 23:04:35,816 [paper_random_kfold_f3_z64] epoch  46 train 0.002434 val 0.002434 7.3s *
+2026-10-05 23:04:43,372 [paper_random_kfold_f3_z64] epoch  47 train 0.002430 val 0.002428 7.6s *
+2026-10-05 23:04:50,675 [paper_random_kfold_f3_z64] epoch  48 train 0.002427 val 0.002437 7.3s
+2026-10-05 23:04:57,958 [paper_random_kfold_f3_z64] epoch  49 train 0.002423 val 0.002438 7.3s
+2026-10-05 23:05:05,281 [paper_random_kfold_f3_z64] epoch  50 train 0.002420 val 0.002433 7.3s
+2026-10-05 23:05:12,527 [paper_random_kfold_f3_z64] epoch  51 train 0.002415 val 0.002416 7.2s *
+2026-10-05 23:05:20,136 [paper_random_kfold_f3_z64] epoch  52 train 0.002410 val 0.002420 7.6s
+2026-10-05 23:05:27,811 [paper_random_kfold_f3_z64] epoch  53 train 0.002407 val 0.002404 7.7s *
+2026-10-05 23:05:35,212 [paper_random_kfold_f3_z64] epoch  54 train 0.002404 val 0.002411 7.4s
+2026-10-05 23:05:42,582 [paper_random_kfold_f3_z64] epoch  55 train 0.002401 val 0.002407 7.4s
+2026-10-05 23:05:49,960 [paper_random_kfold_f3_z64] epoch  56 train 0.002399 val 0.002412 7.4s
+2026-10-05 23:05:57,324 [paper_random_kfold_f3_z64] epoch  57 train 0.002394 val 0.002392 7.4s *
+2026-10-05 23:06:04,795 [paper_random_kfold_f3_z64] epoch  58 train 0.002391 val 0.002394 7.5s
+2026-10-05 23:06:12,158 [paper_random_kfold_f3_z64] epoch  59 train 0.002390 val 0.002391 7.4s *
+2026-10-05 23:06:19,763 [paper_random_kfold_f3_z64] epoch  60 train 0.002388 val 0.002389 7.6s *
+2026-10-05 23:06:27,377 [paper_random_kfold_f3_z64] epoch  61 train 0.002387 val 0.002384 7.6s *
+2026-10-05 23:06:35,009 [paper_random_kfold_f3_z64] epoch  62 train 0.002385 val 0.002385 7.6s
+2026-10-05 23:06:42,633 [paper_random_kfold_f3_z64] epoch  63 train 0.002384 val 0.002394 7.6s
+2026-10-05 23:06:50,187 [paper_random_kfold_f3_z64] epoch  64 train 0.002383 val 0.002386 7.6s
+2026-10-05 23:06:57,718 [paper_random_kfold_f3_z64] epoch  65 train 0.002381 val 0.002405 7.5s
+2026-10-05 23:07:05,420 [paper_random_kfold_f3_z64] epoch  66 train 0.002380 val 0.002392 7.7s
+2026-10-05 23:07:13,009 [paper_random_kfold_f3_z64] epoch  67 train 0.002379 val 0.002378 7.6s *
+2026-10-05 23:07:20,364 [paper_random_kfold_f3_z64] epoch  68 train 0.002377 val 0.002380 7.4s
+2026-10-05 23:07:27,674 [paper_random_kfold_f3_z64] epoch  69 train 0.002377 val 0.002382 7.3s
+2026-10-05 23:07:35,219 [paper_random_kfold_f3_z64] epoch  70 train 0.002376 val 0.002377 7.5s *
+2026-10-05 23:07:42,928 [paper_random_kfold_f3_z64] epoch  71 train 0.002375 val 0.002370 7.7s *
+2026-10-05 23:07:50,306 [paper_random_kfold_f3_z64] epoch  72 train 0.002374 val 0.002390 7.4s
+2026-10-05 23:07:57,621 [paper_random_kfold_f3_z64] epoch  73 train 0.002373 val 0.002371 7.3s
+2026-10-05 23:08:05,022 [paper_random_kfold_f3_z64] epoch  74 train 0.002372 val 0.002395 7.4s
+2026-10-05 23:08:12,422 [paper_random_kfold_f3_z64] epoch  75 train 0.002371 val 0.002362 7.4s *
+2026-10-05 23:08:20,156 [paper_random_kfold_f3_z64] epoch  76 train 0.002369 val 0.002376 7.7s
+2026-10-05 23:08:27,949 [paper_random_kfold_f3_z64] epoch  77 train 0.002369 val 0.002377 7.8s
+2026-10-05 23:08:35,700 [paper_random_kfold_f3_z64] epoch  78 train 0.002367 val 0.002365 7.8s
+2026-10-05 23:08:43,512 [paper_random_kfold_f3_z64] epoch  79 train 0.002366 val 0.002366 7.8s
+2026-10-05 23:08:51,491 [paper_random_kfold_f3_z64] epoch  80 train 0.002366 val 0.002353 8.0s *
+2026-10-05 23:08:59,088 [paper_random_kfold_f3_z64] epoch  81 train 0.002365 val 0.002362 7.6s
+2026-10-05 23:09:06,815 [paper_random_kfold_f3_z64] epoch  82 train 0.002364 val 0.002353 7.7s
+2026-10-05 23:09:14,417 [paper_random_kfold_f3_z64] epoch  83 train 0.002364 val 0.002381 7.6s
+2026-10-05 23:09:22,042 [paper_random_kfold_f3_z64] epoch  84 train 0.002363 val 0.002367 7.6s
+2026-10-05 23:09:29,654 [paper_random_kfold_f3_z64] epoch  85 train 0.002363 val 0.002364 7.6s
+2026-10-05 23:09:37,330 [paper_random_kfold_f3_z64] epoch  86 train 0.002362 val 0.002363 7.7s
+2026-10-05 23:09:44,998 [paper_random_kfold_f3_z64] epoch  87 train 0.002361 val 0.002379 7.7s
+2026-10-05 23:09:52,649 [paper_random_kfold_f3_z64] epoch  88 train 0.002361 val 0.002377 7.7s
+2026-10-05 23:10:00,214 [paper_random_kfold_f3_z64] epoch  89 train 0.002361 val 0.002364 7.6s
+2026-10-05 23:10:07,883 [paper_random_kfold_f3_z64] epoch  90 train 0.002360 val 0.002363 7.7s
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: divide by zero encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: overflow encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: invalid value encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: divide by zero encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: overflow encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: invalid value encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+2026-10-05 23:10:11,510 [paper_random_kfold_f3_z64] done: best epoch 80/90, test MSE 0.002348 (baseline 0.015257), probe AUC 0.646, 11.3 min
+2026-10-05 23:10:11,589 [paper_random_kfold_f4_z64] device=cpu train=1,670,124 val=185,570 test=463,922
+2026-10-05 23:10:18,848 [paper_random_kfold_f4_z64] epoch   1 train 0.005421 val 0.004007 7.3s *
+2026-10-05 23:10:26,147 [paper_random_kfold_f4_z64] epoch   2 train 0.003627 val 0.003364 7.3s *
+2026-10-05 23:10:33,515 [paper_random_kfold_f4_z64] epoch   3 train 0.003209 val 0.003125 7.4s *
+2026-10-05 23:10:40,565 [paper_random_kfold_f4_z64] epoch   4 train 0.002965 val 0.002864 7.0s *
+2026-10-05 23:10:47,673 [paper_random_kfold_f4_z64] epoch   5 train 0.002781 val 0.002699 7.1s *
+2026-10-05 23:10:54,227 [paper_random_kfold_f4_z64] epoch   6 train 0.002667 val 0.002653 6.6s *
+2026-10-05 23:11:00,875 [paper_random_kfold_f4_z64] epoch   7 train 0.002590 val 0.002527 6.6s *
+2026-10-05 23:11:07,987 [paper_random_kfold_f4_z64] epoch   8 train 0.002506 val 0.002459 7.1s *
+2026-10-05 23:11:15,260 [paper_random_kfold_f4_z64] epoch   9 train 0.002419 val 0.002390 7.3s *
+2026-10-05 23:11:22,861 [paper_random_kfold_f4_z64] epoch  10 train 0.002364 val 0.002341 7.6s *
+2026-10-05 23:11:30,196 [paper_random_kfold_f4_z64] epoch  11 train 0.002344 val 0.002343 7.3s
+2026-10-05 23:11:37,487 [paper_random_kfold_f4_z64] epoch  12 train 0.002337 val 0.002333 7.3s *
+2026-10-05 23:11:44,986 [paper_random_kfold_f4_z64] epoch  13 train 0.002328 val 0.002301 7.5s *
+2026-10-05 23:11:52,525 [paper_random_kfold_f4_z64] epoch  14 train 0.002280 val 0.002285 7.5s *
+2026-10-05 23:11:59,046 [paper_random_kfold_f4_z64] epoch  15 train 0.002268 val 0.002272 6.5s *
+2026-10-05 23:12:06,571 [paper_random_kfold_f4_z64] epoch  16 train 0.002264 val 0.002275 7.5s
+2026-10-05 23:12:14,046 [paper_random_kfold_f4_z64] epoch  17 train 0.002261 val 0.002283 7.5s
+2026-10-05 23:12:21,468 [paper_random_kfold_f4_z64] epoch  18 train 0.002259 val 0.002257 7.4s *
+2026-10-05 23:12:28,875 [paper_random_kfold_f4_z64] epoch  19 train 0.002257 val 0.002264 7.4s
+2026-10-05 23:12:36,266 [paper_random_kfold_f4_z64] epoch  20 train 0.002256 val 0.002257 7.4s
+2026-10-05 23:12:43,626 [paper_random_kfold_f4_z64] epoch  21 train 0.002255 val 0.002263 7.4s
+2026-10-05 23:12:50,988 [paper_random_kfold_f4_z64] epoch  22 train 0.002254 val 0.002247 7.4s *
+2026-10-05 23:12:58,297 [paper_random_kfold_f4_z64] epoch  23 train 0.002253 val 0.002245 7.3s *
+2026-10-05 23:13:05,648 [paper_random_kfold_f4_z64] epoch  24 train 0.002251 val 0.002248 7.4s
+2026-10-05 23:13:13,128 [paper_random_kfold_f4_z64] epoch  25 train 0.002250 val 0.002242 7.5s *
+2026-10-05 23:13:20,320 [paper_random_kfold_f4_z64] epoch  26 train 0.002247 val 0.002253 7.2s
+2026-10-05 23:13:27,512 [paper_random_kfold_f4_z64] epoch  27 train 0.002245 val 0.002246 7.2s
+2026-10-05 23:13:34,763 [paper_random_kfold_f4_z64] epoch  28 train 0.002243 val 0.002242 7.3s *
+2026-10-05 23:13:41,606 [paper_random_kfold_f4_z64] epoch  29 train 0.002240 val 0.002253 6.8s
+2026-10-05 23:13:48,413 [paper_random_kfold_f4_z64] epoch  30 train 0.002238 val 0.002242 6.8s
+2026-10-05 23:13:55,240 [paper_random_kfold_f4_z64] epoch  31 train 0.002236 val 0.002258 6.8s
+2026-10-05 23:14:02,069 [paper_random_kfold_f4_z64] epoch  32 train 0.002234 val 0.002231 6.8s *
+2026-10-05 23:14:09,006 [paper_random_kfold_f4_z64] epoch  33 train 0.002231 val 0.002222 6.9s *
+2026-10-05 23:14:16,082 [paper_random_kfold_f4_z64] epoch  34 train 0.002229 val 0.002235 7.1s
+2026-10-05 23:14:23,061 [paper_random_kfold_f4_z64] epoch  35 train 0.002228 val 0.002241 7.0s
+2026-10-05 23:14:30,138 [paper_random_kfold_f4_z64] epoch  36 train 0.002226 val 0.002223 7.1s
+2026-10-05 23:14:37,169 [paper_random_kfold_f4_z64] epoch  37 train 0.002225 val 0.002228 7.0s
+2026-10-05 23:14:44,116 [paper_random_kfold_f4_z64] epoch  38 train 0.002223 val 0.002223 6.9s
+2026-10-05 23:14:51,127 [paper_random_kfold_f4_z64] epoch  39 train 0.002218 val 0.002206 7.0s *
+2026-10-05 23:14:58,083 [paper_random_kfold_f4_z64] epoch  40 train 0.002215 val 0.002225 7.0s
+2026-10-05 23:15:05,144 [paper_random_kfold_f4_z64] epoch  41 train 0.002213 val 0.002216 7.1s
+2026-10-05 23:15:12,081 [paper_random_kfold_f4_z64] epoch  42 train 0.002210 val 0.002208 6.9s
+2026-10-05 23:15:19,019 [paper_random_kfold_f4_z64] epoch  43 train 0.002208 val 0.002202 6.9s *
+2026-10-05 23:15:25,978 [paper_random_kfold_f4_z64] epoch  44 train 0.002205 val 0.002204 7.0s
+2026-10-05 23:15:32,959 [paper_random_kfold_f4_z64] epoch  45 train 0.002203 val 0.002210 7.0s
+2026-10-05 23:15:39,914 [paper_random_kfold_f4_z64] epoch  46 train 0.002201 val 0.002201 7.0s *
+2026-10-05 23:15:46,752 [paper_random_kfold_f4_z64] epoch  47 train 0.002198 val 0.002201 6.8s
+2026-10-05 23:15:53,629 [paper_random_kfold_f4_z64] epoch  48 train 0.002191 val 0.002196 6.9s *
+2026-10-05 23:16:00,552 [paper_random_kfold_f4_z64] epoch  49 train 0.002188 val 0.002182 6.9s *
+2026-10-05 23:16:07,646 [paper_random_kfold_f4_z64] epoch  50 train 0.002186 val 0.002193 7.1s
+2026-10-05 23:16:14,698 [paper_random_kfold_f4_z64] epoch  51 train 0.002184 val 0.002179 7.1s *
+2026-10-05 23:16:21,037 [paper_random_kfold_f4_z64] epoch  52 train 0.002183 val 0.002193 6.3s
+2026-10-05 23:16:27,358 [paper_random_kfold_f4_z64] epoch  53 train 0.002182 val 0.002179 6.3s *
+2026-10-05 23:16:34,335 [paper_random_kfold_f4_z64] epoch  54 train 0.002181 val 0.002176 7.0s *
+2026-10-05 23:16:41,269 [paper_random_kfold_f4_z64] epoch  55 train 0.002179 val 0.002171 6.9s *
+2026-10-05 23:16:48,171 [paper_random_kfold_f4_z64] epoch  56 train 0.002177 val 0.002172 6.9s
+2026-10-05 23:16:55,148 [paper_random_kfold_f4_z64] epoch  57 train 0.002175 val 0.002185 7.0s
+2026-10-05 23:17:02,189 [paper_random_kfold_f4_z64] epoch  58 train 0.002172 val 0.002178 7.0s
+2026-10-05 23:17:09,303 [paper_random_kfold_f4_z64] epoch  59 train 0.002169 val 0.002171 7.1s
+2026-10-05 23:17:16,381 [paper_random_kfold_f4_z64] epoch  60 train 0.002166 val 0.002175 7.1s
+2026-10-05 23:17:23,558 [paper_random_kfold_f4_z64] epoch  61 train 0.002164 val 0.002163 7.2s *
+2026-10-05 23:17:30,564 [paper_random_kfold_f4_z64] epoch  62 train 0.002162 val 0.002175 7.0s
+2026-10-05 23:17:37,535 [paper_random_kfold_f4_z64] epoch  63 train 0.002161 val 0.002168 7.0s
+2026-10-05 23:17:44,480 [paper_random_kfold_f4_z64] epoch  64 train 0.002159 val 0.002152 6.9s *
+2026-10-05 23:17:51,422 [paper_random_kfold_f4_z64] epoch  65 train 0.002157 val 0.002169 6.9s
+2026-10-05 23:17:58,351 [paper_random_kfold_f4_z64] epoch  66 train 0.002155 val 0.002150 6.9s *
+2026-10-05 23:18:05,433 [paper_random_kfold_f4_z64] epoch  67 train 0.002154 val 0.002144 7.1s *
+2026-10-05 23:18:12,400 [paper_random_kfold_f4_z64] epoch  68 train 0.002152 val 0.002155 7.0s
+2026-10-05 23:18:19,321 [paper_random_kfold_f4_z64] epoch  69 train 0.002151 val 0.002170 6.9s
+2026-10-05 23:18:26,303 [paper_random_kfold_f4_z64] epoch  70 train 0.002149 val 0.002148 7.0s
+2026-10-05 23:18:33,296 [paper_random_kfold_f4_z64] epoch  71 train 0.002147 val 0.002160 7.0s
+2026-10-05 23:18:40,291 [paper_random_kfold_f4_z64] epoch  72 train 0.002146 val 0.002145 7.0s
+2026-10-05 23:18:47,193 [paper_random_kfold_f4_z64] epoch  73 train 0.002144 val 0.002164 6.9s
+2026-10-05 23:18:54,206 [paper_random_kfold_f4_z64] epoch  74 train 0.002143 val 0.002147 7.0s
+2026-10-05 23:19:01,189 [paper_random_kfold_f4_z64] epoch  75 train 0.002141 val 0.002136 7.0s *
+2026-10-05 23:19:08,302 [paper_random_kfold_f4_z64] epoch  76 train 0.002139 val 0.002159 7.1s
+2026-10-05 23:19:15,303 [paper_random_kfold_f4_z64] epoch  77 train 0.002138 val 0.002129 7.0s *
+2026-10-05 23:19:22,328 [paper_random_kfold_f4_z64] epoch  78 train 0.002137 val 0.002139 7.0s
+2026-10-05 23:19:29,233 [paper_random_kfold_f4_z64] epoch  79 train 0.002136 val 0.002145 6.9s
+2026-10-05 23:19:36,258 [paper_random_kfold_f4_z64] epoch  80 train 0.002136 val 0.002149 7.0s
+2026-10-05 23:19:43,205 [paper_random_kfold_f4_z64] epoch  81 train 0.002135 val 0.002135 6.9s
+2026-10-05 23:19:50,145 [paper_random_kfold_f4_z64] epoch  82 train 0.002135 val 0.002128 6.9s *
+2026-10-05 23:19:57,137 [paper_random_kfold_f4_z64] epoch  83 train 0.002135 val 0.002146 7.0s
+2026-10-05 23:20:04,189 [paper_random_kfold_f4_z64] epoch  84 train 0.002134 val 0.002127 7.1s *
+2026-10-05 23:20:11,216 [paper_random_kfold_f4_z64] epoch  85 train 0.002132 val 0.002132 7.0s
+2026-10-05 23:20:18,167 [paper_random_kfold_f4_z64] epoch  86 train 0.002130 val 0.002162 7.0s
+2026-10-05 23:20:25,101 [paper_random_kfold_f4_z64] epoch  87 train 0.002129 val 0.002120 6.9s *
+2026-10-05 23:20:31,990 [paper_random_kfold_f4_z64] epoch  88 train 0.002128 val 0.002141 6.9s
+2026-10-05 23:20:38,932 [paper_random_kfold_f4_z64] epoch  89 train 0.002128 val 0.002133 6.9s
+2026-10-05 23:20:45,822 [paper_random_kfold_f4_z64] epoch  90 train 0.002127 val 0.002149 6.9s
+2026-10-05 23:20:53,300 [paper_random_kfold_f4_z64] epoch  91 train 0.002127 val 0.002131 7.5s
+2026-10-05 23:21:00,734 [paper_random_kfold_f4_z64] epoch  92 train 0.002126 val 0.002128 7.4s
+2026-10-05 23:21:08,003 [paper_random_kfold_f4_z64] epoch  93 train 0.002124 val 0.002127 7.3s
+2026-10-05 23:21:15,262 [paper_random_kfold_f4_z64] epoch  94 train 0.002123 val 0.002117 7.3s *
+2026-10-05 23:21:22,565 [paper_random_kfold_f4_z64] epoch  95 train 0.002122 val 0.002122 7.3s
+2026-10-05 23:21:29,842 [paper_random_kfold_f4_z64] epoch  96 train 0.002122 val 0.002116 7.3s *
+2026-10-05 23:21:37,387 [paper_random_kfold_f4_z64] epoch  97 train 0.002121 val 0.002111 7.5s *
+2026-10-05 23:21:44,675 [paper_random_kfold_f4_z64] epoch  98 train 0.002118 val 0.002120 7.3s
+2026-10-05 23:21:51,910 [paper_random_kfold_f4_z64] epoch  99 train 0.002116 val 0.002131 7.2s
+2026-10-05 23:21:59,156 [paper_random_kfold_f4_z64] epoch 100 train 0.002115 val 0.002116 7.2s
+2026-10-05 23:22:06,499 [paper_random_kfold_f4_z64] epoch 101 train 0.002115 val 0.002122 7.3s
+2026-10-05 23:22:13,777 [paper_random_kfold_f4_z64] epoch 102 train 0.002115 val 0.002115 7.3s
+2026-10-05 23:22:21,051 [paper_random_kfold_f4_z64] epoch 103 train 0.002114 val 0.002118 7.3s
+2026-10-05 23:22:28,309 [paper_random_kfold_f4_z64] epoch 104 train 0.002115 val 0.002116 7.3s
+2026-10-05 23:22:35,529 [paper_random_kfold_f4_z64] epoch 105 train 0.002114 val 0.002121 7.2s
+2026-10-05 23:22:42,769 [paper_random_kfold_f4_z64] epoch 106 train 0.002114 val 0.002223 7.2s
+2026-10-05 23:22:49,967 [paper_random_kfold_f4_z64] epoch 107 train 0.002114 val 0.002118 7.2s
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: divide by zero encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: overflow encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: invalid value encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: divide by zero encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: overflow encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: invalid value encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+2026-10-05 23:22:53,662 [paper_random_kfold_f4_z64] done: best epoch 97/107, test MSE 0.002111 (baseline 0.015270), probe AUC 0.642, 12.6 min
+2026-10-05 23:22:54,237 replication set finished
+======================================================================
+Step 6: autoencoder runs (AEmiGAP 4.2.2)
+======================================================================
+device: cpu (threads=4); benchmark s/epoch: {'cpu': 6.4, 'cpu_threads4': 6.3, 'mps': 15.5}
+input 128 = miRNA mirna_d2v_inferred.npy + gene gene_d2v.npy; MinMax fit on training rows per fold
+Adam lr 0.001, batch 128, max 200 epochs, early stopping patience 10 on val MSE (best weights kept)
+note: latent=128 is overcomplete (latent = input size), hidden widths 128/128.
+note: MSE is per element on [0,1]-scaled features; baseline = predict training mean.
+
+set     latent fold  best  run   train MSE     val MSE    test MSE    base MSE  ratio probe AUC    min   s/ep
+-------------------------------------------------------------------------------------------------------------
+Table2       8    0    43   53    0.006733    0.006743    0.006731    0.015271  0.441     0.550    5.4    6.1
+Table2      16    0   102  112    0.004929    0.004936    0.004926    0.015271  0.323     0.588   11.4    6.1
+Table2      32    0    45   55    0.004101    0.004105    0.004100    0.015271  0.268     0.611    7.1    7.7
+Table2      64    0   140  150    0.002125    0.002127    0.002125    0.015271  0.139     0.651   16.0    6.4
+Table2      64    0   140  150    0.002125    0.002127    0.002125    0.015271  0.139     0.651   16.0    6.4 (reused)
+Table2     128    0    83   93    0.001307    0.001308    0.001308    0.015271  0.086     0.669   13.2    8.5
+Table3      64    1    81   91    0.002610    0.002605    0.002607    0.015275  0.171     0.636   10.0    6.6
+Table3      64    2    63   73    0.002163    0.002164    0.002164    0.015264  0.142     0.651    7.7    6.3
+Table3      64    3    80   90    0.002347    0.002353    0.002348    0.015257  0.154     0.646   11.3    7.5
+Table3      64    4    97  107    0.002106    0.002111    0.002111    0.015270  0.138     0.642   12.6    7.1
+ratio = test MSE / baseline MSE (lower is better; must be well below 1)
+Table 3 (5-fold, latent 64): test MSE 0.002307 ± 0.000224; probe AUC 0.644 ± 0.006
+paper reference: training converged after about 20 epochs

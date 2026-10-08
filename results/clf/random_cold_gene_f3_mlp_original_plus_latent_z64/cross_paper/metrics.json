@@ -1,0 +1,20 @@
+{
+ "roc_auc": 0.8344932434864059,
+ "pr_auc": 0.8193440500099622,
+ "accuracy": 0.7606761334028139,
+ "precision": 0.7519224561084025,
+ "recall": 0.7832264906600679,
+ "f1": 0.7672553048171478,
+ "confusion": {
+  "tn": 168659,
+  "fp": 59940,
+  "fn": 50283,
+  "tp": 181678
+ },
+ "n": 460560,
+ "threshold": 0.5,
+ "train_strategy": "random",
+ "test_strategy": "paper",
+ "split_type": "cold_gene",
+ "fold": 3
+}

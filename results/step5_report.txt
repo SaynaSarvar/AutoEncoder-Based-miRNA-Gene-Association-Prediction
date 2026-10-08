@@ -1,0 +1,74 @@
+======================================================================
+Step 5: folds (5-fold, seed 42, validation 10%)
+======================================================================
+positive pairs identical in all strategies: 1,159,808
+cold_mirna: 2314 seq_groups (from 2334 miRNAs); cold_gene: 16796 genes
+
+======================================================================
+Per-fold test sets: rows, % positive, distinct miRNAs / genes
+======================================================================
+--- random_kfold
+  strategy                          fold 0                    fold 1                    fold 2                    fold 3                    fold 4
+  paper                    463,924  50.0%            463,924  50.0%            463,924  50.0%            463,922  50.0%            463,922  50.0% 
+  random                   463,924  50.0%            463,924  50.0%            463,924  50.0%            463,922  50.0%            463,922  50.0% 
+  degree_aware             463,924  50.0%            463,924  50.0%            463,924  50.0%            463,922  50.0%            463,922  50.0% 
+  paper                2,334 mi / 16,562 g       2,334 mi / 16,562 g       2,334 mi / 16,553 g       2,334 mi / 16,586 g       2,334 mi / 16,557 g
+  random               2,334 mi / 16,796 g       2,334 mi / 16,796 g       2,334 mi / 16,796 g       2,334 mi / 16,796 g       2,334 mi / 16,796 g
+  degree_aware         2,331 mi / 15,891 g       2,329 mi / 15,891 g       2,329 mi / 15,914 g       2,329 mi / 15,909 g       2,332 mi / 15,913 g
+  val share/pos% paper         10.0%/50%  10.0%/50%  10.0%/50%  10.0%/50%  10.0%/50%
+  val share/pos% random        10.0%/50%  10.0%/50%  10.0%/50%  10.0%/50%  10.0%/50%
+  val share/pos% degree_aware  10.0%/50%  10.0%/50%  10.0%/50%  10.0%/50%  10.0%/50%
+--- cold_mirna
+  strategy                          fold 0                    fold 1                    fold 2                    fold 3                    fold 4
+  paper                    466,747  49.7%            460,721  50.3%            467,002  49.7%            464,008  50.0%            461,138  50.3% 
+  random                   463,967  50.0%            464,840  49.9%            462,840  50.1%            465,183  49.9%            462,786  50.1% 
+  degree_aware             463,922  50.0%            463,926  50.0%            463,922  50.0%            463,922  50.0%            463,924  50.0% 
+  paper                  466 mi / 16,546 g         469 mi / 16,665 g         465 mi / 16,592 g         470 mi / 16,539 g         464 mi / 16,505 g
+  random                 466 mi / 16,796 g         469 mi / 16,796 g         465 mi / 16,796 g         470 mi / 16,796 g         464 mi / 16,796 g
+  degree_aware           466 mi / 15,797 g         469 mi / 16,224 g         465 mi / 15,830 g         470 mi / 15,845 g         464 mi / 15,837 g
+  val share/pos% paper         9.5%/53%  9.2%/54%  9.5%/53%  9.8%/52%  10.5%/48%
+  val share/pos% random        9.3%/54%  9.2%/54%  9.5%/53%  9.8%/51%  10.5%/48%
+  val share/pos% degree_aware  10.0%/50%  10.0%/50%  10.0%/50%  10.1%/50%  10.1%/50%
+--- cold_gene
+  strategy                          fold 0                    fold 1                    fold 2                    fold 3                    fold 4
+  paper                    464,337  50.0%            463,979  50.0%            463,125  50.1%            460,560  50.4%            467,615  49.6% 
+  random                   463,275  50.1%            463,971  50.0%            463,876  50.0%            464,208  50.0%            464,286  50.0% 
+  degree_aware             463,721  50.0%            463,680  50.0%            464,511  49.9%            463,575  50.0%            464,129  50.0% 
+  paper                 2,334 mi / 3,359 g        2,334 mi / 3,359 g        2,334 mi / 3,360 g        2,334 mi / 3,359 g        2,334 mi / 3,359 g
+  random                2,334 mi / 3,359 g        2,334 mi / 3,359 g        2,334 mi / 3,360 g        2,334 mi / 3,359 g        2,334 mi / 3,359 g
+  degree_aware          2,329 mi / 3,359 g        2,331 mi / 3,359 g        2,327 mi / 3,360 g        2,329 mi / 3,359 g        2,329 mi / 3,359 g
+  val share/pos% paper         10.1%/49%  10.1%/50%  10.0%/50%  10.2%/49%  10.0%/50%
+  val share/pos% random        9.9%/51%  10.1%/49%  10.0%/50%  10.1%/50%  9.9%/51%
+  val share/pos% degree_aware  10.0%/50%  10.0%/50%  10.0%/50%  10.0%/50%  10.0%/50%
+  ('!' = fold outside 40-60% positive; val share = val rows / non-test rows)
+flagged folds: 0
+
+======================================================================
+Leakage and consistency checks
+======================================================================
+cold_mirna: zero seq_group overlap between train+val and test (all strategies, folds)
+cold_gene:  zero gene overlap between train+val and test (all strategies, folds)
+cold val groups are disjoint from train groups
+positives: identical test fold AND validation membership across the 3 strategies, for every split type
+
+======================================================================
+Hub concentration in cold test folds (positives involving top-1% degree entities)
+======================================================================
+hub miRNAs: 24 (degree >= 2142); hub genes: 168 (degree >= 354)
+all positives: 5.1% involve a hub miRNA, 6.2% a hub gene
+--- cold_mirna
+  fold 0: 231,961 pos, hubs=5, hub-miRNA 5.4%, hub-gene 6.2%
+  fold 1: 231,963 pos, hubs=4, hub-miRNA 4.5%, hub-gene 6.2%
+  fold 2: 231,961 pos, hubs=6, hub-miRNA 6.1%, hub-gene 6.3%
+  fold 3: 231,961 pos, hubs=4, hub-miRNA 4.2%, hub-gene 6.1%
+  fold 4: 231,962 pos, hubs=5, hub-miRNA 5.4%, hub-gene 6.2%
+--- cold_gene
+  fold 0: 231,962 pos, hubs=34, hub-miRNA 5.1%, hub-gene 6.3%
+  fold 1: 231,962 pos, hubs=33, hub-miRNA 5.1%, hub-gene 6.1%
+  fold 2: 231,962 pos, hubs=33, hub-miRNA 5.2%, hub-gene 6.1%
+  fold 3: 231,961 pos, hubs=34, hub-miRNA 5.1%, hub-gene 6.3%
+  fold 4: 231,961 pos, hubs=34, hub-miRNA 5.2%, hub-gene 6.3%
+
+saved: data/processed/folds_paper.parquet, data/processed/folds_random.parquet, data/processed/folds_degree_aware.parquet, data/processed/folds_groups.json
+load_split(paper, cold_gene, 0): train=1,667,291 val=187,988 test=464,337
+load_cross(paper -> degree_aware, random_kfold, 0): train=1,670,122 val=185,570 test=458,857 (5,067 test negatives dropped because they are train/val rows of paper)

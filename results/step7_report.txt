@@ -1,0 +1,36 @@
+======================================================================
+Step 7: classifiers (paper negatives, random holdout fold 0, latent 64)
+======================================================================
+device: cpu (threads=4); Adam lr 0.001, batch 128, max 50 epochs, early stopping on val ROC-AUC (patience 5, best weights kept)
+note: the paper's '5,000,000 iterations' is replaced by early stopping on validation ROC-AUC.
+blocks: m/g = Doc2Vec vectors, z = encoder of the AE trained on the same strategy/split/fold; one RobustScaler per block, fit on training rows.
+
+model   input                  ROC-AUC   paper  PR-AUC     acc      F1    prec  recall  best  ep    min   s/ep
+--------------------------------------------------------------------------------------------------------------
+lstm    original_plus_latent    0.9510  0.9846  0.9581  0.8767  0.8739  0.8941  0.8546     6  11   15.1   79.2
+lstm    original_only           0.9496  0.9804  0.9566  0.8746  0.8712  0.8959  0.8478    12  17   14.7   50.3
+lstm    latent_only             0.9351  0.9231  0.9422  0.8552  0.8531  0.8653  0.8413    27  32   15.6   28.4
+mlp     original_plus_latent    0.9507       -  0.9592  0.8768  0.8688  0.9294  0.8156    49  50    7.3    8.5
+logreg  original_plus_latent    0.6965       -  0.6598  0.6504  0.6616  0.6410  0.6835     1   1    0.8   39.2
+paper reference: lstm latent_only: 0.9231 (Table 2, z=64); lstm original_plus_latent: 0.9846 (Table 2, z=64); lstm original_only: 0.9804 (Table 11, miGAP)
+confusion matrices (test, threshold 0.5):
+  logreg  original_plus_latent  TN=143,179 FP=88,783 FN=73,410 TP=158,552
+  lstm    latent_only           TN=201,586 FP=30,376 FN=36,810 TP=195,152
+  lstm    original_only         TN=209,116 FP=22,846 FN=35,313 TP=196,649
+  lstm    original_plus_latent  TN=208,476 FP=23,486 FN=33,719 TP=198,243
+  mlp     original_plus_latent  TN=217,596 FP=14,366 FN=42,779 TP=189,183
+
+Cross-strategy evaluation (trained on paper negatives):
+  paper_random_holdout_f0_lstm_original_plus_latent_z64 -> test negatives from degree_aware (random_holdout fold 0, n=458,857): ROC-AUC 0.5188, PR-AUC 0.5174, acc 0.5185, F1 0.6422, precision 0.5143, recall 0.8546
+
+Step 4 shortcut baselines, paper strategy (logistic regression, test ROC-AUC):
+  3 distances only 0.859; train-split degree only 0.894; log gene length only 0.711
+
+Epoch timings (benchmark, one epoch, paper random_holdout f0, original_plus_latent):
+  lstm_cpu                      61.5 s/epoch
+  lstm_mps                     110.2 s/epoch
+  bilstm_cpu                   123.2 s/epoch
+  gru_cpu                       50.5 s/epoch
+  transformer_cpu               58.6 s/epoch
+  mlp_cpu                        7.9 s/epoch
+  lstm_timesteps_cpu          3110.4 s/epoch  (extrapolated from 300 batches; not trained)

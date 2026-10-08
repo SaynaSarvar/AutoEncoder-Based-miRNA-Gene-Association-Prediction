@@ -1,0 +1,10 @@
+======================================================================
+Step 3 corpus (genomic, 3-mer, 3 frames, chunks <= 10000 tokens)
+======================================================================
+mirna  entities=  2334 documents=    7,002 tokens=         45,827
+gene   entities= 16796 documents=  155,715 tokens=  1,277,771,928
+total  documents=162,717 tokens=1,277,817,755
+corpus file: data/embeddings/corpus_genomic.txt  4.8 GB
+largest gene: ENSG00000078328 (RBFOX1) -> 249 chunks over 3 frames
+chunks per gene: median=6 p99=69
+documents shorter than 10 tokens: 7026 (miRNA frames have ~7 tokens)

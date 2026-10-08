@@ -1,0 +1,25 @@
+{
+ "roc_auc": 0.5785188591955315,
+ "pr_auc": 0.5490935497109092,
+ "accuracy": 0.5635388423906637,
+ "precision": 0.5584398995649762,
+ "recall": 0.6596669267678619,
+ "f1": 0.6048473325440886,
+ "confusion": {
+  "tn": 105130,
+  "fp": 120991,
+  "fn": 78944,
+  "tp": 153017
+ },
+ "n": 458082,
+ "threshold": 0.5,
+ "strong_auc": 0.5815667999273237,
+ "n_strong_pos": 1665,
+ "per_mirna_auc": 0.5656718175380305,
+ "n_mirnas_per_entity": 1995,
+ "baseline": "log_length",
+ "strategy": "paper",
+ "split_type": "random_kfold",
+ "fold": 4,
+ "test_strategy": "random"
+}

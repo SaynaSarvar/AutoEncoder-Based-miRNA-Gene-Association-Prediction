@@ -1,0 +1,30 @@
+{
+ "strategy": "paper",
+ "split_type": "random_holdout",
+ "fold": 0,
+ "model": "lstm",
+ "input_variant": "original_plus_latent",
+ "latent": 128,
+ "blocks": [
+  "m",
+  "g",
+  "z"
+ ],
+ "dims": [
+  64,
+  64,
+  128
+ ],
+ "ae_run": "paper_random_holdout_f0_z128",
+ "seed": 42,
+ "device": "cpu",
+ "batch_size": 128,
+ "lr": 0.001,
+ "max_epochs": 50,
+ "patience": 5,
+ "n_train": 1670122,
+ "n_val": 185570,
+ "n_test": 463924,
+ "mirna_embedding": "mirna_d2v_inferred.npy",
+ "gene_embedding": "gene_d2v.npy"
+}

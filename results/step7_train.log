@@ -1,0 +1,172 @@
+2026-10-05 23:33:07,545   z from paper_random_holdout_f0_z64: (2319616, 64) in 1s
+2026-10-05 23:34:17,927 benchmark lstm on cpu: 61.5s/epoch
+2026-10-05 23:34:18,699   z from paper_random_holdout_f0_z64: (2319616, 64) in 1s
+2026-10-05 23:36:17,727 benchmark lstm on mps: 110.2s/epoch
+2026-10-05 23:38:21,171 benchmark bilstm on cpu: 123.2s/epoch
+2026-10-05 23:39:11,632 benchmark gru on cpu: 50.5s/epoch
+2026-10-05 23:40:10,289 benchmark transformer on cpu: 58.6s/epoch
+2026-10-05 23:40:18,209 benchmark mlp on cpu: 7.9s/epoch
+2026-10-05 23:41:29,728 benchmark lstm_timesteps on cpu: 3110s/epoch (extrapolated from 300 batches)
+2026-10-05 23:41:29,733 chosen device: cpu (threads=4); written to configs/default.yaml
+2026-10-05 23:41:29,753 [paper_random_holdout_f0_lstm_original_plus_latent_z64] device=cpu
+2026-10-05 23:41:30,649   z from paper_random_holdout_f0_z64: (2319616, 64) in 1s
+2026-10-05 23:43:01,560 [paper_random_holdout_f0_lstm_original_plus_latent_z64] epoch  1 loss 0.3398 val AUC 0.9415 80s *
+2026-10-05 23:44:23,526 [paper_random_holdout_f0_lstm_original_plus_latent_z64] epoch  2 loss 0.2875 val AUC 0.9467 80s *
+2026-10-05 23:45:45,959 [paper_random_holdout_f0_lstm_original_plus_latent_z64] epoch  3 loss 0.2740 val AUC 0.9497 81s *
+2026-10-05 23:47:04,014 [paper_random_holdout_f0_lstm_original_plus_latent_z64] epoch  4 loss 0.2658 val AUC 0.9507 76s *
+2026-10-05 23:48:25,522 [paper_random_holdout_f0_lstm_original_plus_latent_z64] epoch  5 loss 0.2597 val AUC 0.9515 80s *
+2026-10-05 23:49:38,009 [paper_random_holdout_f0_lstm_original_plus_latent_z64] epoch  6 loss 0.2552 val AUC 0.9518 71s *
+2026-10-05 23:51:00,558 [paper_random_holdout_f0_lstm_original_plus_latent_z64] epoch  7 loss 0.2519 val AUC 0.9512 81s
+2026-10-05 23:52:22,615 [paper_random_holdout_f0_lstm_original_plus_latent_z64] epoch  8 loss 0.2494 val AUC 0.9512 80s
+2026-10-05 23:53:44,801 [paper_random_holdout_f0_lstm_original_plus_latent_z64] epoch  9 loss 0.2469 val AUC 0.9516 80s
+2026-10-05 23:55:07,441 [paper_random_holdout_f0_lstm_original_plus_latent_z64] epoch 10 loss 0.2446 val AUC 0.9513 81s
+2026-10-05 23:56:30,454 [paper_random_holdout_f0_lstm_original_plus_latent_z64] epoch 11 loss 0.2432 val AUC 0.9508 81s
+2026-10-05 23:56:35,012 [paper_random_holdout_f0_lstm_original_plus_latent_z64] test ROC-AUC 0.9510 PR-AUC 0.9581 acc 0.8767 F1 0.8739 (best epoch 6/11, 15.1 min)
+2026-10-05 23:56:35,023 [paper_random_holdout_f0_lstm_original_only_z64] device=cpu
+2026-10-05 23:57:35,928 [paper_random_holdout_f0_lstm_original_only_z64] epoch  1 loss 0.3414 val AUC 0.9407 54s *
+2026-10-05 23:58:29,111 [paper_random_holdout_f0_lstm_original_only_z64] epoch  2 loss 0.2908 val AUC 0.9457 52s *
+2026-10-05 23:59:13,163 [paper_random_holdout_f0_lstm_original_only_z64] epoch  3 loss 0.2780 val AUC 0.9478 43s *
+2026-10-05 23:59:59,968 [paper_random_holdout_f0_lstm_original_only_z64] epoch  4 loss 0.2700 val AUC 0.9493 46s *
+2026-10-06 00:00:54,381 [paper_random_holdout_f0_lstm_original_only_z64] epoch  5 loss 0.2640 val AUC 0.9501 53s *
+2026-10-06 00:01:47,576 [paper_random_holdout_f0_lstm_original_only_z64] epoch  6 loss 0.2601 val AUC 0.9497 52s
+2026-10-06 00:02:41,082 [paper_random_holdout_f0_lstm_original_only_z64] epoch  7 loss 0.2563 val AUC 0.9504 52s *
+2026-10-06 00:03:30,427 [paper_random_holdout_f0_lstm_original_only_z64] epoch  8 loss 0.2535 val AUC 0.9503 48s
+2026-10-06 00:04:19,881 [paper_random_holdout_f0_lstm_original_only_z64] epoch  9 loss 0.2511 val AUC 0.9500 48s
+2026-10-06 00:05:08,994 [paper_random_holdout_f0_lstm_original_only_z64] epoch 10 loss 0.2488 val AUC 0.9502 48s
+2026-10-06 00:05:58,306 [paper_random_holdout_f0_lstm_original_only_z64] epoch 11 loss 0.2473 val AUC 0.9497 48s
+2026-10-06 00:06:47,486 [paper_random_holdout_f0_lstm_original_only_z64] epoch 12 loss 0.2457 val AUC 0.9505 48s *
+2026-10-06 00:07:40,870 [paper_random_holdout_f0_lstm_original_only_z64] epoch 13 loss 0.2444 val AUC 0.9504 52s
+2026-10-06 00:08:34,373 [paper_random_holdout_f0_lstm_original_only_z64] epoch 14 loss 0.2433 val AUC 0.9500 52s
+2026-10-06 00:09:28,325 [paper_random_holdout_f0_lstm_original_only_z64] epoch 15 loss 0.2426 val AUC 0.9496 53s
+2026-10-06 00:10:22,069 [paper_random_holdout_f0_lstm_original_only_z64] epoch 16 loss 0.2414 val AUC 0.9494 53s
+2026-10-06 00:11:15,652 [paper_random_holdout_f0_lstm_original_only_z64] epoch 17 loss 0.2407 val AUC 0.9491 52s
+2026-10-06 00:11:18,770 [paper_random_holdout_f0_lstm_original_only_z64] test ROC-AUC 0.9496 PR-AUC 0.9566 acc 0.8746 F1 0.8712 (best epoch 12/17, 14.7 min)
+2026-10-06 00:11:18,774 [paper_random_holdout_f0_lstm_latent_only_z64] device=cpu
+2026-10-06 00:11:19,552   z from paper_random_holdout_f0_z64: (2319616, 64) in 1s
+2026-10-06 00:11:52,510 [paper_random_holdout_f0_lstm_latent_only_z64] epoch  1 loss 0.4475 val AUC 0.8963 30s *
+2026-10-06 00:12:22,173 [paper_random_holdout_f0_lstm_latent_only_z64] epoch  2 loss 0.3838 val AUC 0.9118 29s *
+2026-10-06 00:12:51,474 [paper_random_holdout_f0_lstm_latent_only_z64] epoch  3 loss 0.3622 val AUC 0.9186 29s *
+2026-10-06 00:13:19,445 [paper_random_holdout_f0_lstm_latent_only_z64] epoch  4 loss 0.3488 val AUC 0.9229 27s *
+2026-10-06 00:13:48,787 [paper_random_holdout_f0_lstm_latent_only_z64] epoch  5 loss 0.3391 val AUC 0.9259 29s *
+2026-10-06 00:14:17,946 [paper_random_holdout_f0_lstm_latent_only_z64] epoch  6 loss 0.3324 val AUC 0.9274 29s *
+2026-10-06 00:14:46,782 [paper_random_holdout_f0_lstm_latent_only_z64] epoch  7 loss 0.3273 val AUC 0.9285 28s *
+2026-10-06 00:15:15,381 [paper_random_holdout_f0_lstm_latent_only_z64] epoch  8 loss 0.3231 val AUC 0.9299 28s *
+2026-10-06 00:15:42,843 [paper_random_holdout_f0_lstm_latent_only_z64] epoch  9 loss 0.3198 val AUC 0.9302 27s *
+2026-10-06 00:16:12,029 [paper_random_holdout_f0_lstm_latent_only_z64] epoch 10 loss 0.3167 val AUC 0.9319 29s *
+2026-10-06 00:16:38,536 [paper_random_holdout_f0_lstm_latent_only_z64] epoch 11 loss 0.3140 val AUC 0.9325 26s *
+2026-10-06 00:17:07,634 [paper_random_holdout_f0_lstm_latent_only_z64] epoch 12 loss 0.3117 val AUC 0.9324 28s
+2026-10-06 00:17:36,756 [paper_random_holdout_f0_lstm_latent_only_z64] epoch 13 loss 0.3096 val AUC 0.9324 29s
+2026-10-06 00:18:05,902 [paper_random_holdout_f0_lstm_latent_only_z64] epoch 14 loss 0.3078 val AUC 0.9339 29s *
+2026-10-06 00:18:34,358 [paper_random_holdout_f0_lstm_latent_only_z64] epoch 15 loss 0.3060 val AUC 0.9333 28s
+2026-10-06 00:19:02,853 [paper_random_holdout_f0_lstm_latent_only_z64] epoch 16 loss 0.3041 val AUC 0.9341 28s *
+2026-10-06 00:19:31,666 [paper_random_holdout_f0_lstm_latent_only_z64] epoch 17 loss 0.3024 val AUC 0.9342 28s *
+2026-10-06 00:19:59,026 [paper_random_holdout_f0_lstm_latent_only_z64] epoch 18 loss 0.3008 val AUC 0.9344 27s *
+2026-10-06 00:20:28,432 [paper_random_holdout_f0_lstm_latent_only_z64] epoch 19 loss 0.2993 val AUC 0.9343 29s
+2026-10-06 00:20:57,760 [paper_random_holdout_f0_lstm_latent_only_z64] epoch 20 loss 0.2980 val AUC 0.9350 29s *
+2026-10-06 00:21:24,753 [paper_random_holdout_f0_lstm_latent_only_z64] epoch 21 loss 0.2966 val AUC 0.9345 26s
+2026-10-06 00:21:51,784 [paper_random_holdout_f0_lstm_latent_only_z64] epoch 22 loss 0.2957 val AUC 0.9346 26s
+2026-10-06 00:22:18,949 [paper_random_holdout_f0_lstm_latent_only_z64] epoch 23 loss 0.2945 val AUC 0.9351 27s *
+2026-10-06 00:22:49,311 [paper_random_holdout_f0_lstm_latent_only_z64] epoch 24 loss 0.2935 val AUC 0.9353 30s *
+2026-10-06 00:23:17,181 [paper_random_holdout_f0_lstm_latent_only_z64] epoch 25 loss 0.2925 val AUC 0.9348 27s
+2026-10-06 00:23:45,150 [paper_random_holdout_f0_lstm_latent_only_z64] epoch 26 loss 0.2918 val AUC 0.9350 27s
+2026-10-06 00:24:13,800 [paper_random_holdout_f0_lstm_latent_only_z64] epoch 27 loss 0.2907 val AUC 0.9356 28s *
+2026-10-06 00:24:45,540 [paper_random_holdout_f0_lstm_latent_only_z64] epoch 28 loss 0.2901 val AUC 0.9352 31s
+2026-10-06 00:25:19,027 [paper_random_holdout_f0_lstm_latent_only_z64] epoch 29 loss 0.2892 val AUC 0.9352 33s
+2026-10-06 00:25:50,367 [paper_random_holdout_f0_lstm_latent_only_z64] epoch 30 loss 0.2885 val AUC 0.9353 31s
+2026-10-06 00:26:21,272 [paper_random_holdout_f0_lstm_latent_only_z64] epoch 31 loss 0.2880 val AUC 0.9355 30s
+2026-10-06 00:26:51,636 [paper_random_holdout_f0_lstm_latent_only_z64] epoch 32 loss 0.2870 val AUC 0.9356 30s
+2026-10-06 00:26:53,324 [paper_random_holdout_f0_lstm_latent_only_z64] test ROC-AUC 0.9351 PR-AUC 0.9422 acc 0.8552 F1 0.8531 (best epoch 27/32, 15.6 min)
+2026-10-06 00:26:53,336 [paper_random_holdout_f0_mlp_original_plus_latent_z64] device=cpu
+2026-10-06 00:26:54,004   z from paper_random_holdout_f0_z64: (2319616, 64) in 1s
+2026-10-06 00:27:11,468 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch  1 loss 0.4079 val AUC 0.9173 9s *
+2026-10-06 00:27:20,151 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch  2 loss 0.3646 val AUC 0.9274 9s *
+2026-10-06 00:27:28,997 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch  3 loss 0.3495 val AUC 0.9332 9s *
+2026-10-06 00:27:37,990 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch  4 loss 0.3407 val AUC 0.9372 9s *
+2026-10-06 00:27:46,928 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch  5 loss 0.3342 val AUC 0.9384 9s *
+2026-10-06 00:27:55,685 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch  6 loss 0.3295 val AUC 0.9413 9s *
+2026-10-06 00:28:04,621 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch  7 loss 0.3260 val AUC 0.9422 9s *
+2026-10-06 00:28:13,335 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch  8 loss 0.3227 val AUC 0.9438 9s *
+2026-10-06 00:28:22,121 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch  9 loss 0.3204 val AUC 0.9442 9s *
+2026-10-06 00:28:30,551 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch 10 loss 0.3182 val AUC 0.9453 8s *
+2026-10-06 00:28:38,888 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch 11 loss 0.3163 val AUC 0.9460 8s *
+2026-10-06 00:28:47,764 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch 12 loss 0.3146 val AUC 0.9459 9s
+2026-10-06 00:28:56,667 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch 13 loss 0.3133 val AUC 0.9465 9s *
+2026-10-06 00:29:05,138 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch 14 loss 0.3121 val AUC 0.9479 8s *
+2026-10-06 00:29:13,611 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch 15 loss 0.3108 val AUC 0.9474 8s
+2026-10-06 00:29:22,092 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch 16 loss 0.3095 val AUC 0.9482 8s *
+2026-10-06 00:29:30,931 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch 17 loss 0.3089 val AUC 0.9480 9s
+2026-10-06 00:29:39,797 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch 18 loss 0.3078 val AUC 0.9485 9s *
+2026-10-06 00:29:48,230 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch 19 loss 0.3067 val AUC 0.9485 8s
+2026-10-06 00:29:56,670 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch 20 loss 0.3063 val AUC 0.9485 8s
+2026-10-06 00:30:05,139 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch 21 loss 0.3054 val AUC 0.9490 8s *
+2026-10-06 00:30:13,386 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch 22 loss 0.3051 val AUC 0.9489 8s
+2026-10-06 00:30:21,653 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch 23 loss 0.3043 val AUC 0.9493 8s *
+2026-10-06 00:30:30,342 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch 24 loss 0.3034 val AUC 0.9497 9s *
+2026-10-06 00:30:39,085 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch 25 loss 0.3032 val AUC 0.9499 9s *
+2026-10-06 00:30:47,555 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch 26 loss 0.3027 val AUC 0.9499 8s *
+2026-10-06 00:30:56,170 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch 27 loss 0.3021 val AUC 0.9500 8s *
+2026-10-06 00:31:04,964 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch 28 loss 0.3014 val AUC 0.9505 9s *
+2026-10-06 00:31:13,430 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch 29 loss 0.3012 val AUC 0.9509 8s *
+2026-10-06 00:31:22,185 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch 30 loss 0.3008 val AUC 0.9504 9s
+2026-10-06 00:31:30,925 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch 31 loss 0.3003 val AUC 0.9505 9s
+2026-10-06 00:31:39,616 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch 32 loss 0.3002 val AUC 0.9509 9s *
+2026-10-06 00:31:48,025 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch 33 loss 0.2999 val AUC 0.9512 8s *
+2026-10-06 00:31:56,736 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch 34 loss 0.2991 val AUC 0.9510 9s
+2026-10-06 00:32:05,447 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch 35 loss 0.2995 val AUC 0.9513 9s *
+2026-10-06 00:32:14,245 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch 36 loss 0.2988 val AUC 0.9509 9s
+2026-10-06 00:32:23,073 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch 37 loss 0.2983 val AUC 0.9508 9s
+2026-10-06 00:32:31,889 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch 38 loss 0.2980 val AUC 0.9514 9s *
+2026-10-06 00:32:40,218 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch 39 loss 0.2979 val AUC 0.9509 8s
+2026-10-06 00:32:48,543 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch 40 loss 0.2977 val AUC 0.9515 8s *
+2026-10-06 00:32:57,416 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch 41 loss 0.2976 val AUC 0.9518 9s *
+2026-10-06 00:33:05,879 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch 42 loss 0.2971 val AUC 0.9519 8s *
+2026-10-06 00:33:14,623 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch 43 loss 0.2968 val AUC 0.9512 9s
+2026-10-06 00:33:23,386 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch 44 loss 0.2969 val AUC 0.9516 9s
+2026-10-06 00:33:32,141 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch 45 loss 0.2964 val AUC 0.9520 9s *
+2026-10-06 00:33:40,582 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch 46 loss 0.2960 val AUC 0.9520 8s *
+2026-10-06 00:33:48,884 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch 47 loss 0.2958 val AUC 0.9518 8s
+2026-10-06 00:33:57,180 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch 48 loss 0.2956 val AUC 0.9520 8s
+2026-10-06 00:34:05,469 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch 49 loss 0.2953 val AUC 0.9521 8s *
+2026-10-06 00:34:13,872 [paper_random_holdout_f0_mlp_original_plus_latent_z64] epoch 50 loss 0.2953 val AUC 0.9515 8s
+2026-10-06 00:34:14,335 [paper_random_holdout_f0_mlp_original_plus_latent_z64] test ROC-AUC 0.9507 PR-AUC 0.9592 acc 0.8768 F1 0.8688 (best epoch 49/50, 7.3 min)
+2026-10-06 00:34:14,340 [paper_random_holdout_f0_logreg_original_plus_latent_z64] device=cpu
+2026-10-06 00:34:14,997   z from paper_random_holdout_f0_z64: (2319616, 64) in 1s
+2026-10-06 00:35:03,456 [paper_random_holdout_f0_logreg_original_plus_latent_z64] test ROC-AUC 0.6965 PR-AUC 0.6598 acc 0.6504 F1 0.6616 (best epoch 1/1, 0.8 min)
+2026-10-06 00:35:08,614 [paper_random_holdout_f0_lstm_original_plus_latent_z64 -> degree_aware] ROC-AUC 0.5188 PR-AUC 0.5174 acc 0.5185 F1 0.6422 (n=458,857)
+2026-10-06 00:35:08,625 step 7 smoke set finished
+======================================================================
+Step 7: classifiers (paper negatives, random holdout fold 0, latent 64)
+======================================================================
+device: cpu (threads=4); Adam lr 0.001, batch 128, max 50 epochs, early stopping on val ROC-AUC (patience 5, best weights kept)
+note: the paper's '5,000,000 iterations' is replaced by early stopping on validation ROC-AUC.
+blocks: m/g = Doc2Vec vectors, z = encoder of the AE trained on the same strategy/split/fold; one RobustScaler per block, fit on training rows.
+
+model   input                  ROC-AUC   paper  PR-AUC     acc      F1    prec  recall  best  ep    min   s/ep
+--------------------------------------------------------------------------------------------------------------
+lstm    original_plus_latent    0.9510  0.9846  0.9581  0.8767  0.8739  0.8941  0.8546     6  11   15.1   79.2
+lstm    original_only           0.9496  0.9804  0.9566  0.8746  0.8712  0.8959  0.8478    12  17   14.7   50.3
+lstm    latent_only             0.9351  0.9231  0.9422  0.8552  0.8531  0.8653  0.8413    27  32   15.6   28.4
+mlp     original_plus_latent    0.9507       -  0.9592  0.8768  0.8688  0.9294  0.8156    49  50    7.3    8.5
+logreg  original_plus_latent    0.6965       -  0.6598  0.6504  0.6616  0.6410  0.6835     1   1    0.8   39.2
+paper reference: lstm latent_only: 0.9231 (Table 2, z=64); lstm original_plus_latent: 0.9846 (Table 2, z=64); lstm original_only: 0.9804 (Table 11, miGAP)
+confusion matrices (test, threshold 0.5):
+  logreg  original_plus_latent  TN=143,179 FP=88,783 FN=73,410 TP=158,552
+  lstm    latent_only           TN=201,586 FP=30,376 FN=36,810 TP=195,152
+  lstm    original_only         TN=209,116 FP=22,846 FN=35,313 TP=196,649
+  lstm    original_plus_latent  TN=208,476 FP=23,486 FN=33,719 TP=198,243
+  mlp     original_plus_latent  TN=217,596 FP=14,366 FN=42,779 TP=189,183
+
+Cross-strategy evaluation (trained on paper negatives):
+  paper_random_holdout_f0_lstm_original_plus_latent_z64 -> test negatives from degree_aware (random_holdout fold 0, n=458,857): ROC-AUC 0.5188, PR-AUC 0.5174, acc 0.5185, F1 0.6422, precision 0.5143, recall 0.8546
+
+Step 4 shortcut baselines, paper strategy (logistic regression, test ROC-AUC):
+  3 distances only 0.859; train-split degree only 0.894; log gene length only 0.711
+
+Epoch timings (benchmark, one epoch, paper random_holdout f0, original_plus_latent):
+  lstm_cpu                      61.5 s/epoch
+  lstm_mps                     110.2 s/epoch
+  bilstm_cpu                   123.2 s/epoch
+  gru_cpu                       50.5 s/epoch
+  transformer_cpu               58.6 s/epoch
+  mlp_cpu                        7.9 s/epoch
+  lstm_timesteps_cpu          3110.4 s/epoch  (extrapolated from 300 batches; not trained)

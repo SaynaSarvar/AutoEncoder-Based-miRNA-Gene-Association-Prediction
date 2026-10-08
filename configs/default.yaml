@@ -1,0 +1,101 @@
+seed: 42
+paths:
+  mature_fa: data/raw/mature.fa
+  mti_csv: data/raw/hsa_MTI.csv
+  interim_dir: data/interim
+  processed_dir: data/processed
+  embeddings_dir: data/embeddings
+  results_dir: results
+aliases:
+  path: data/raw/aliases.txt
+  sources:
+  - url: https://mirbase.org/download/aliases.txt
+    version: CURRENT
+  - url: https://www.mirbase.org/ftp/CURRENT/aliases.txt.gz
+    version: CURRENT
+  - url: https://www.mirbase.org/download_version_files/22.1/aliases.txt
+    version: '22.1'
+  - url: ftp://mirbase.org/pub/mirbase/CURRENT/aliases.txt.gz
+    version: CURRENT
+  used_source: null
+  used_version: null
+
+ensembl:
+  release: 116
+  genome_fa_gz: data/raw/Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz
+  genome_fa: data/raw/Homo_sapiens.GRCh38.dna.primary_assembly.fa
+  gtf: data/raw/Homo_sapiens.GRCh38.116.gtf.gz
+  cdna: data/raw/Homo_sapiens.GRCh38.cdna.all.fa.gz
+  entrez: data/raw/Homo_sapiens.GRCh38.116.entrez.tsv.gz
+  urls:
+    genome: https://ftp.ensembl.org/pub/release-116/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz
+    cdna: https://ftp.ensembl.org/pub/release-116/fasta/homo_sapiens/cdna/Homo_sapiens.GRCh38.cdna.all.fa.gz
+    gtf: https://ftp.ensembl.org/pub/release-116/gtf/homo_sapiens/Homo_sapiens.GRCh38.116.gtf.gz
+    entrez: https://ftp.ensembl.org/pub/release-116/tsv/homo_sapiens/Homo_sapiens.GRCh38.116.entrez.tsv.gz
+
+genes:
+  max_n_fraction: 0.10
+
+embed:
+  max_doc_tokens: 10000
+  vector_size: 64
+  window: 5
+  min_count: 1
+  dm: 1
+  sample: 0             # use every token
+  sample_reason: with only 64 distinct 3-mers, the default downsampling (sample=1e-3) treats every token as frequent and drops ~69% of them
+  epochs: 20
+  workers: null          # null -> number of performance cores (sysctl hw.perflevel0.physicalcpu)
+  pilot_epochs: 2
+  pilot_token_fraction: 0.02
+  infer:
+    epochs: 200
+    alpha: 0.025
+    min_alpha: 0.0001
+
+negatives:
+  mirna_embedding: mirna_d2v_inferred.npy   # step 3 decision; k-mer kept as comparison arm
+  gene_embedding: gene_d2v.npy              # raw (no normalisation), as in the paper
+  n_pos_subsample: null                     # e.g. 358864 for a paper-sized run
+  chunk_mirnas: 128
+
+autoencoder:
+  out_dir: data/models/ae
+  batch_size: 128
+  lr: 0.001
+  max_epochs: 200
+  patience: 10
+  device: cpu
+  num_threads: 4
+  benchmark: {"cpu": 6.4, "cpu_threads4": 6.3, "mps": 15.5}
+
+classifier:
+  out_dir: results/clf
+  batch_size: 128
+  lr: 0.001
+  max_epochs: 50
+  max_epochs_by_model:
+    mlp: 100            # step 7: mlp hit the 50-epoch cap while still improving
+  patience: 5
+  device: cpu
+  num_threads: 4
+  benchmark: {"lstm_cpu": 61.5, "lstm_mps": 110.2, "bilstm_cpu": 123.2, "gru_cpu": 50.5, "transformer_cpu": 58.6, "mlp_cpu": 7.9, "lstm_timesteps_cpu": 3110.4}
+
+paper_reference:        # AEmiGAP paper values; paper folds are numbered 1-5 (ours 0-4)
+  table2:               # ROC-AUC, lstm, random holdout, by latent size
+    8: {latent_only: 0.9022, original_plus_latent: 0.9818}
+    16: {latent_only: 0.8988, original_plus_latent: 0.9837}
+    32: {latent_only: 0.9229, original_plus_latent: 0.9832}
+    64: {latent_only: 0.9231, original_plus_latent: 0.9846}
+    128: {latent_only: 0.9331, original_plus_latent: 0.9840}
+  table3:               # AEmiGAP 5-fold; columns: precision, recall, accuracy, f1, roc_auc
+    folds:
+      - [0.966, 0.923, 0.943, 0.945, 0.9814]
+      - [0.944, 0.941, 0.942, 0.942, 0.9854]
+      - [0.961, 0.931, 0.945, 0.946, 0.9852]
+      - [0.976, 0.926, 0.949, 0.950, 0.9857]
+      - [0.982, 0.921, 0.949, 0.950, 0.9851]
+    average: {precision: 0.9658, recall: 0.9284, accuracy: 0.9456, f1: 0.9466, roc_auc: 0.9846}
+  table11_migap: {precision: 0.938, recall: 0.9278, accuracy: 0.934, f1: 0.9326, roc_auc: 0.9804}
+  table11_aemigap: {precision: 0.9658, recall: 0.9284, accuracy: 0.9456, f1: 0.9466, roc_auc: 0.9846}
+  table13: {lstm: 0.9846, bilstm: 0.9638, gru: 0.9478, transformer: 0.9436}   # ROC-AUC, holdout
